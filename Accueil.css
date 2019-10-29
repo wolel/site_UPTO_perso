@@ -199,6 +199,7 @@ footer {
     background: #f25f29;
     font-size: smaller;
     color: black;
+    padding-top: 2em;
     display: flex;
     justify-content: space-around;
 }
@@ -207,13 +208,17 @@ footer p > a, #plan_site > a {
     text-decoration: none;
     color: black;
 }
+#footer_logo {
+    padding-top: 3em;
+}
 
 #footer_milieu > p {
     text-align: center;
 }
 
 #icones_footer > i {
-    font-size: 6em ;
+    font-size: 5em ;
+    color: #40178f;
     padding: .5em  1.5em;
 }
 
@@ -228,6 +233,7 @@ footer p > a, #plan_site > a {
 }
 #plan_site > a {
     padding-left: 1.8em;
+    padding-top: .3em;
 }
 
 
