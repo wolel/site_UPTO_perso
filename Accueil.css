@@ -240,7 +240,7 @@ section {
 #bloc_gauche {
     float: left;
     width: 70%;
-    padding: 5em;
+    padding: 2em 5em;
 }
 aside {
     float: right;
