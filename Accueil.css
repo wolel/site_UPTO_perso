@@ -90,11 +90,9 @@ header {
 
 .popup {
     position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: none;
     width: 45vw;
-    height: 60vh;
+    height: 40vh;
     top: 10em;
     right: 20em;
     background-color: rgba(0, 0, 0, 0.8);
@@ -105,17 +103,6 @@ header {
     transition: 1s ease-in-out;
 }
 
-.popup-inner {
-    position: relative;
-    top: 2vw;
-    right: 40vh;
-    max-width: 800px;
-    max-height: 600px;
-    width: 80%;
-    height: 80%;
-    transform: rotate(32deg);
-    transition: 1s ease-in-out;
-}
 .popuptext {
     margin: auto;
     padding: 1em;
@@ -124,6 +111,9 @@ header {
     background-color: #3d0d64;
 }
 
+fieldset {
+    margin-top: 1em;
+}
 
 label {
     display: inline-block;
@@ -169,17 +159,17 @@ button {
 }
 .closepopup {
     position: absolute;
-    right: -1rem;
-    top: -1rem;
-    width: 3rem;
-    height: 3rem;
-    font-size: .875rem;
-    font-weight: 300;
+    right: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    font-size: .500rem;
+    font-weight: 200;
     border-radius: 100%;
     background-color: #47BDFF;
     z-index: 4;
     color: #fff;
-    line-height: 3rem;
+    line-height: 2rem;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
@@ -218,6 +208,15 @@ button {
      background: #d93679;
      font-size: x-small;
  }
+.utilisateurs .sous_menu {
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    position: relative;
+    background: #3d0d64;
+    font-size: x-small;
+}
 
 .sous-menu a {
     padding-top: .2em;
