@@ -40,8 +40,31 @@
             <li class="flex_items menu-item partenaires"><a href="#"><span class="icon"><i class="fas fa-hands-helping"></i></span>
                 <span>Partenaires</span></a></li>
 
-            <li class="flex_items menu-item utilisateurs"><a href="#"><span class="icon"><i class="fas fa-sign-in-alt"></i></span>
-                <span>Espace utilisateurs</span></a></li>
+            <li class="flex_items menu-item utilisateurs"><a href="#popup"><span class="icon"><i class="fas fa-sign-in-alt"></i></span>
+                <span>Espace utilisateurs</span></a>
+                <div class="popup" id="popup">
+                    <div class="popup-inner">
+                        <form method="post" action="#">
+                            <fieldset>
+                                <div class="popuptext">
+                                    <div>
+                                        <label for="pseudo">Login</label>
+                                        <input type="text" name ="pseudo" id="pseudo" maxlength="9"/>
+                                    </div>
+                                    <div>
+                                        <label for="pass">Mot de passe</label>
+                                        <input type="password" name="pass" id="pass">
+                                    </div>
+                                    <div id="submit">
+                                        <button type="submit">Envoyer</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <a class="closepopup" href="#">X</a>
+                </div>
+            </li>
         </ul>
     </nav>
     <div>
