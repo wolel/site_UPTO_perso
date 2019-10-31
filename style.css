@@ -188,8 +188,8 @@ button {
     font-size: xx-large;
     text-decoration: none;
     text-align: center;
-     margin-top: .2em;
-     margin-left: .2em;
+    margin-top: .2em;
+    margin-left: .2em;
 }
 
  .enfant {
@@ -234,19 +234,20 @@ button {
 section {
     width: 80%;
     margin: 0 10%;
-    font-size: medium;
+    font-size: x-large;
 }
 
-#bloc_gauche {
+/*Accueil*/
+.bloc_gauche {
     float: left;
-    width: 70%;
-    padding: 2em 5em;
+    width: 60%;
+    padding: 2em 3em;
 }
-aside {
+.bloc_droit {
     float: right;
-    width: 30%;
-    padding: 3em;
-    margin-top: 12em;
+    width: 40%;
+    padding: 1em;
+    margin-top: 5em;
     text-align: center;
     border: 2px groove black;
     border-radius: 1em;
@@ -267,6 +268,7 @@ h2 {
     font-size: medium;
     color: #f25f29;
 }
+
 p {
     text-align: justify;
     font-size: small;
@@ -287,6 +289,21 @@ p {
     line-height: 2.1em;
     color: #3b728f;
 }
+
+/*formation*/
+ section{
+     font-size: medium;
+}
+
+ .tableau {
+     padding-top: 1.5em;
+ }
+
+ .col-sm > img {
+     width: 60px;
+     height: 60px;
+ }
+
 
 
 /*footer*/
@@ -316,7 +333,7 @@ footer p > a, #plan_site > a {
 }
 
 #icones_footer > i {
-    font-size: 5em ;
+    font-size: 4.5em ;
     color: #40178f;
     padding: .5em  1.5em;
 }
