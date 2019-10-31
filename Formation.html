@@ -122,12 +122,33 @@
                 </div>
             </div>
         </div>
-
-<div><h2>Inscription</h2>
-    formulaire
-
-</div>
+    <div class="bloc_gauche"><h1>Inscription</h1>
+        <form method="post" action="#">
+            <fieldset class="inscription">
+                <div class="form">
+                    <label for="login">Login</label>
+                    <input type="text" name ="pseudo" id="login" maxlength="9"/>
+                </div>
+                <div class="form">
+                    <label for="MP">Password</label>
+                    <input type="password" name="pass" id="MP">
+                </div>
+                <div class="form">
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <div class="form">
+                    <label for="msg"></label>
+                    <textarea name="user_name" id="msg" >Décrivez votre motivation</textarea>
+                </div>
+                <div id="envoyer">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 </section>
+
 <footer>
     <div id="footer_logo"> <img src="img/logoface.jpg" alt="logo face thiérache"></div>
     <div id="footer_milieu">
