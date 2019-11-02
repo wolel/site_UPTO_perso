@@ -15,5 +15,162 @@
 </head>
 <body>
 
+<header>
+    <nav class="nav">
+        <ul class="menu_flex">
+            <li class="flex_items logo"><img src="img/logo-up-to.jpg" alt="fondation face thierache logo"></li>
+            <li class="flex_items menu-item accueil"><a href="Accueil.html" ><span class="icon"><i class="fas fa-home"></i></span>
+                <span>Accueil</span></a></li>
+            <li class="flex_items menu-item formation"><a href="Formation.html" ><span class="icon"><i class="fas fa-laptop-code"></i></span>
+                <span>Formation</span></a></li>
+            <li class="flex_items menu-item promotions enfant"><a href="Promotions.html" ><span class="icon"><i class="fas fa-portrait"></i></span>
+                <span>Promotions</span></a>
+                <ul class="sous_menu">
+                    <li><a href="#">2018-2019</a></li>
+                    <li><a href="#">2019-2020</a></li>
+                </ul>
+            </li>
+            <li class="flex_items menu-item contacts"><a href="Contact.html"><span class="icon"><i class="far fa-paper-plane"></i></span>
+                <span>Contacts</span></a></li>
+
+            <li class="flex_items menu-item actu"><a href="Actualités.html"><span class="icon"><i class="far fa-sticky-note"></i></span>
+                <span>Actualités</span></a></li>
+
+            <li class="flex_items menu-item partenaires"><a href="Partenaires.html"><span class="icon"><i class="fas fa-hands-helping"></i></span>
+                <span>Partenaires</span></a></li>
+
+            <li class="flex_items menu-item utilisateurs enfant"><a href="#popup"><span class="icon"><i class="fas fa-sign-in-alt"></i></span>
+                <span>Espace utilisateurs</span></a>
+                <ul class="sous_menu">
+                    <li onclick="javascript:afficher_cacher('popup');">Login</li>
+                </ul>
+                <div class="popup" id="popup">
+                    <form method="post" action="#">
+                        <fieldset>
+                            <div class="popuptext">
+                                <div>
+                                    <label for="pseudo">Login</label>
+                                    <input type="text" name ="pseudo" id="pseudo" maxlength="9"/>
+                                </div>
+                                <div>
+                                    <label for="pass">Mot de passe</label>
+                                    <input type="password" name="pass" id="pass">
+                                </div>
+                                <div id="submit">
+                                    <button type="submit">Envoyer</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <a class="closepopup" href="#">X</a>
+                </div>
+
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <img id="bandeau" src="img/bandeau_accueil.png" alt="up_to">
+    </div>
+</header>
+
+
+<section class="container_actus">
+    <div class="separator"></div>
+    <div class="row actu">
+        <div class="col-sm3"> <img class="photo_art" src="img/conf_press1.jpg" alt="promotion 2019"> </div>
+        <div class="col-sm9 btn_right">
+            <h2>Fourmies : cette année, l’École du numérique aura aussi un accent belge - oct 2019</h2>
+            <p>La deuxième session de l’École du numérique, qui vise à former gratuitement
+                des développeurs Web, a ouvert ses portes à Fourmies. Avec cette nouveauté :
+                sur les 24 stagiaires présents, huit viennent de Belgique.</p>
+            <a href="https://www.lavoixdunord.fr/652031/article/2019-10-15/
+            fourmies-cette-annee-l-ecole-du-numerique-aura-aussi-un-accent-belge#&VP=0"
+               target="_blank" class="btn bouton">Lire la suite</a>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="row actu">
+        <div class="col-sm3"> <img class="photo_art" src="img/conf_press2.jpg" alt="conférence presse octobre 2019"> </div>
+        <div class="col-sm9 btn_right">
+            <h2>[Fourmies] Ecole du numérique : une session transfrontalière - oct 2019</h2>
+            <p>Environ 3 000 emplois dans les métiers du numérique sont à pourvoir
+                dans les Hauts-de-France. L'enquête BMO de Pôle Emploi montre que
+                63% des recrutements sont jugés difficiles dans le secteur du numérique.</p>
+            <a href="http://mickaelhiraux.over-blog.com/2019/10/fourmies-ecole-du-numerique-une-session-transfrontaliere.html" target="_blank" class="btn bouton">Lire la suite</a>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="row actu">
+        <div class="col-sm3"> <img class="photo_art" src="img/partenaires.jpg" alt="conférence de presse site face thiérache"> </div>
+        <div class="col-sm9 btn_right">
+            <h2>Conférence de presse à l'école du numérique de #fourmies - Facebook oct 2019</h2>
+            <p>La première école du numérique transfrontalière.
+                Fondation Chimay Wartoise Interreg France-Wallonie-Vlaanderen
+                Mickaël Hiraux Communauté de Communes Sud Avesnois Nord Mon Département
+                Réussir en Sambre Avesnois Région Hauts-de-France</p>
+            <a href="https://www.facebook.com/facethierache/posts/2379769792246259" target="_blank" class="btn bouton">Lire la suite</a>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="row actu">
+        <div class="col-sm3"> <img class="photo_art" src="img/promo2.jpg" alt="rentrée promo 2"> </div>
+        <div class="col-sm9 btn_right">
+            <h2>Rentrée des apprenants session#2 de l’école du numérique de Fourmies 👌ce matin - Facebook sept 2019</h2>
+            <p>Fondation Chimay Wartoise Interreg France-Wallonie-Vlaanderen Mickaël Hiraux
+                Communauté de Communes Sud Avesnois Nord Mon Département
+                Réussir en Sambre Avesnois Région Hauts-de-France</p>
+            <a href="https://www.facebook.com/facethierache/posts/2367752833447955" target="_blank" class="btn bouton">Lire la suite</a>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="row actu">
+        <div class="col-sm3"> <img class="photo_art" src="img/promo1.jpg" alt="promo 1 2018"> </div>
+        <div class="col-sm9 btn_right">
+            <h2>Fourmies L’École régionale du Numérique ouvre son site aux futurs développeurs Web - oct 2018</h2>
+            <p>Parmi les 29 sites de l’École régionale du Numérique implantés dans les
+                Hauts-de-France, celui de Fourmies a ouvert ses portes le 1er octobre.
+                Pendant huit mois, il va former, gratuitement, 24 stagiaires à la programmation
+                de pages Internet ou d’applications mobiles pour smartphones.
+                Parce que ce secteur économique recrute.</p>
+            <a href="https://www.lavoixdunord.fr/465874/article/2018-10-09/l-ecole-regionale-du-numerique-ouvre-son-site-aux-futurs-developpeurs-web#&VP=0" target="_blank" class="btn bouton">Lire la suite</a>
+        </div>
+    </div>
+    <div class="separator"></div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+<footer>
+    <div id="footer_logo"> <img src="img/logoface.jpg" alt="logo face thiérache"></div>
+    <div id="footer_milieu">
+        <p> @copyright 2019 - Up To Fourmies <br> Tous droits réservés</p>
+        <p><a href="#">Mentions légales</a></p>
+        <div id="icones_footer">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fas fa-envelope-square"></i>
+        </div>
+    </div>
+    <div id="plan_site"> <span> Plan du site</span>
+        <a href="#"> Accueil</a>
+        <a href="#">Formation</a>
+        <a href="#">Promotions</a>
+        <a href="#">Actualités</a>
+        <a href="#">Partenaires</a>
+    </div>
+</footer>
+
+
+<script src="btn cacher.js"></script>
+
 </body>
 </html>

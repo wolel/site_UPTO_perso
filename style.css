@@ -442,7 +442,7 @@ p {
     justify-content: center;
     align-items: stretch;
     flex-flow: row wrap;
-    background: rgba(242, 139, 12, 0.51);
+    background: #d93679;
     margin-bottom: 3em;
 }
 
@@ -458,7 +458,47 @@ p {
     margin:2em;
 }
 
+/*Actu*/
 
+.separator {
+    height: 1px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: #d93679;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.row.actu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding-left:1em;
+    padding-right: 2em;
+}
+
+.btn_right {
+    text-align: right;
+}
+
+.col-sm3 {
+    margin-right: 2%;
+}
+
+.photo_art {
+    width: 250px;
+}
+
+.col-sm9 > p, .col-sm9 > h2 {
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+}
+.bouton {
+    text-align: right;
+    background-color: #3b728f;
+    color: white;
+}
 
 
 /*footer*/
