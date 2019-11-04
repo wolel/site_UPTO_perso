@@ -85,6 +85,8 @@ header {
 .flex_items:hover {
     transform: scale(1.2) translateY(2px);
     transition: .35s;
+    border-radius: 3px;
+
 }
 /*popup login*/
 
@@ -222,7 +224,6 @@ span.icon {
     padding-top: .2em;
     text-align: center;
     color:white;
-
 }
 
 #bandeau img {
@@ -287,6 +288,223 @@ p {
     line-height: 2.1em;
     color: #3b728f;
 }
+
+
+/*formation*/
+
+#formation > p {
+    font-size: medium;
+}
+
+#formation > ul {
+    font-size: small;
+    font-weight: normal;
+    line-height: 1.8em;
+}
+
+ .tableau {
+     padding-top: 1.5em;
+ }
+
+ .col-sm > img {
+     width: 60px;
+     height: 60px;
+ }
+
+.inscription
+{   margin: auto;
+    padding: 1%;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 2em;
+    background-color: #acbf1b;
+    text-align: center;
+    font-size: medium;
+}
+
+.form > label {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    vertical-align: center;
+}
+
+.form > input, textarea
+{
+    margin:.7em;
+    font: normal 1em sans-serif;
+    width: 65%;
+    vertical-align: center;
+    border: 1px solid black;
+    height: auto;
+}
+
+#envoyer > button {
+    margin: .5em;
+    padding: .5em;
+    width: auto;
+    border-radius: 1.5em;
+}
+
+/*contat*/
+    /*popup2*/
+
+.container_popup2 {
+    background-color: #acbf1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 30vh;
+    margin: 3em 8em;
+}
+.button {
+    text-decoration: none;
+    font-size: .875rem;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    color: #f28b0c;
+    padding: 1rem 2rem;
+    font-weight: 900;
+}
+
+.popup2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 15;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: .64s ease-in-out;
+}
+.popup-inner2 {
+    position: relative;
+    bottom: -100vw;
+    right: -100vh;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    max-height: 600px;
+    width: 60%;
+    height: 80%;
+    background-color: #fff;
+    transform: rotate(32deg);
+    transition: .64s ease-in-out;
+}
+
+.popuptext2 {
+    width: 70%;
+    height: 100%;
+    padding: 4rem;
+}
+.popuptext2 > form {
+    padding : 3em;
+}
+
+.popup2:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup2:target .popup-inner2 {
+    bottom: 0;
+    right: 0;
+    transform: rotate(0);
+}
+.closepopup2 {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: .875rem;
+    font-weight: 300;
+    border-radius: 100%;
+    background-color: #47BDFF;
+    z-index: 4;
+    color: #fff;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    /*renseignements*/
+#renseignements {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-flow: row wrap;
+    background: #d93679;
+    margin-bottom: 3em;
+}
+
+.flex_r {
+    width: 33.33%;
+}
+.flex_r > h1 {
+    color:#3d0d64;
+}
+
+.flex_r > p {
+    text-align: center;
+}
+
+#iframe {
+    margin:2em;
+}
+
+/*Actu*/
+
+.separator {
+    height: 1px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: #d93679;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.row.actu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding-left:1em;
+    padding-right: 2em;
+}
+
+.btn_right {
+    text-align: right;
+}
+
+.col-sm3 {
+    margin-right: 2%;
+}
+
+.photo_art {
+    width: 250px;
+}
+
+.col-sm9 > p, .col-sm9 > h2 {
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+}
+.bouton {
+    text-align: right;
+    background-color: #3b728f;
+    color: white;
+}
+
 
 
 /*footer*/
@@ -381,9 +599,6 @@ footer p > a, #plan_site > a {
 
 /*petit smart*/
 @media (max-width: 640px) {
-
-
-
     .nav .menu_flex {
         flex-direction: column;
         height: auto;
@@ -430,6 +645,7 @@ footer p > a, #plan_site > a {
     }
 
 }
+
 
 
 
