@@ -16,8 +16,6 @@ header {
     padding: .5em;
     text-align: center;
     color: white;
-    height: 130px;
-
 }
 
 .nav ul {
@@ -53,7 +51,6 @@ header {
     color:#fefefe;
     letter-spacing: 2px;
     border-bottom: 2px;
-
 }
 .menu-item {
     cursor: pointer;
@@ -65,15 +62,12 @@ header {
 }
 .flex_items.accueil {
     background: #f28b0c ;
-
 }
 .flex_items.formation {
     background: #f25f29 ;
-
 }
 .flex_items.promotions {
     background: #d93679 ;
-
 }
 .flex_items.contacts {
     background: #acbf1b ;
@@ -91,7 +85,6 @@ header {
     transform: scale(1.1) translateY(2px);
     transition: .35s;
     border-radius: 3px;
-
 }
 
 /*popup login*/
@@ -225,7 +218,6 @@ button {
     padding-top: .2em;
     text-align: center;
     color:white;
-
 }
 
 #bandeau img {
@@ -456,6 +448,9 @@ p {
 .flex_r {
     width: 33.33%;
 }
+.flex_r > h1 {
+    color:#3d0d64;
+}
 
 .flex_r > p {
     text-align: center;
@@ -600,9 +595,6 @@ footer p > a, #plan_site > a {
 
 /*petit smart*/
 @media (max-width: 640px) {
-
-
-
     .nav .menu_flex {
         flex-direction: column;
         height: auto;
@@ -652,15 +644,7 @@ footer p > a, #plan_site > a {
 
 /*-------------media queries-----------*/
 
-@media screen and (max-width: 412px) and (max-width: 767px){
-    body{background-color:blue;}
-    .flip-card {
-        background-color: transparent;
-        width:767px;
-        height: 350px;
-        perspective: 800px; /* Remove this if you don't want the 3D effect */
-    }
-}
+
 
 
 
