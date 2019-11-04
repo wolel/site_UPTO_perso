@@ -890,7 +890,7 @@ footer p > a, #plan_site > a {
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .flip-card {
         background-color: transparent;
-        width:200%;
+        width:50%;
         height: 350px;}
 
     h2{color: white}
