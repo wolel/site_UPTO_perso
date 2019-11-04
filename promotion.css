@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+/*-----------Hamburger menu--------------------*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+#acceuil{background-color: #ff8e00;transition: 1s eas-in-out;color: white}
+#acceuil:hover {background-color: #ff8e00;color: white;transform: scale(0.92);border-radius: 3px}
+#formation{background-color: #f25f29;transition: 1s eas-in-out}
+#formation:hover{background-color: #f25f29;color: white;transform: scale(0.92);border-radius: 3px}
+#contact{background-color:#acbf1b;transition: 1s eas-in-out}
+#contact:hover{background-color: #acbf1b;color: white;transform: scale(0.92);border-radius: 3px}
+#actualités{background-color: #3b728f;transition: 1s eas-in-out}
+#actualités:hover{background-color: #3b728f;color: white;transform: scale(0.92);border-radius: 3px}
+#partenaires{background-color: #40178f;color: white;transition: 1s eas-in-out}
+#partenaires:hover{background-color: #40178f;color: white;transform: scale(0.92);border-radius: 3px}
+#espaceUt{background-color: #3d0d64;color: white}
+#espaceUt:hover{background-color: #3d0d64;color: white;transform: scale(0.92);border-radius: 3px}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: white;
+    color: #d93679;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;}
+
+/*-----------PROMOTION--------------------*/
+* {box-sizing:border-box}
+body{margin: 0;padding: 0;background-image: url("img/promotion/triangle_pattern.jpg"); }
+h1{text-align: center;font-size: 40px;text-decoration: #2196F3;color: #333;}
+img{vertical-align: middle}
+p{font-size: 20px;line-height: 40px;padding-top: 20px}
+i{font-size: 130%;}
+.fa-bars{color: #333}
+
+.logoGitHub{width:50%; text-align: center;margin: 25px 0 0 15px;cursor: pointer}
+.logoLink{width: 30%;margin-top: -100px;margin-left:100px;cursor: pointer}
+.logoCV{width: 30%;margin-left:60px;cursor: pointer;margin-top: -20px}
+
+/*------------------ Slideshow container ------------------------------*/
+.photo-container{position: relative;/* Container needed to position the overlay. Adjust the width as needed */
+    width: 180px;
+    height: 180px;
+    background-color: grey;
+    margin: 6px;
+}
+.photo{width: 100%;height: auto;cursor: pointer}/* Make the image to responsive */
+.overlay{position: absolute;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    transform: scale(0);
+    transition: .3s ease}/* The overlay effect (full height and width) - lays on top of the container and over the image */
+
+.photo-container:hover .overlay {transform: scale(1);}/* When you mouse over the container, the overlay text will "zoom" in display */
+
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin:auto;
+    background-color: #f1f1f1;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top:12px;
+    overflow: scroll;
+}
+/*--------------buttons prev & next-----------------*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+/*----------------------- Fading animation *--------------------------*/
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+/*---------------Hide the images by default-----------------------*/
+
+/*footer----------------*/
+.footer{
+    background-color: #333;
+    max-width: 100%;
+    height: 100px;
+bottom: 0;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background: #f25f29;
+    font-size: smaller;
+    color: white;
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p > a, #plan_site > a {
+    text-decoration: none;
+    color: white;
+}
+#footer_logo {
+    padding-top: 3em;
+}
+
+#footer_milieu > p {
+    text-align: center;
+}
+
+#icones_footer > i {
+    font-size: 4.5em ;
+    color: #40178f;
+    padding: .5em  1.5em;
+}
+#plan_site > span {
+    font-size: medium;
+}
+#plan_site {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.2em;
+}
+#plan_site > a {
+    padding-left: 1.8em;
+    padding-top: .3em;
+}
+
+/* media queries-----------------------------------------------*/
+/*  pour tablettes*/
+@media (max-width:1024px) {
+    #icones_footer > i {
+        font-size: 2.5em;
+        padding: .5em 1em;
+    }
+}
+/*pour smartphone-landscape-tablettes*/
+@media (max-width: 812px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        width: 130%;
+    }
+
+    section {
+        width: 100%;
+    }
+    #bloc_gauche {
+        float: left;
+        width: 63%;
+        margin: 0;
+        padding-left: 1em;
+        padding-bottom: 1em;
+    }
+    section aside {
+        width: 37%;
+        float: right;
+        padding: 0;
+    }
+
+    footer {
+        width: 130%;}
+    #icones_footer > i {
+        font-size: 2.5em;
+        padding: .5em 1em;
+    }
+
+}
+/*-----------------------*/
+/* When the screen is less than 600 pixels wide, hide all links,
+xcept for the first one ("Home"). Show the link that contains should
+open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav {
+        background-color: #d93679;
+        overflow: hidden;
+           }
+    .fa-bars{color: white}
+    #acceuil{background-color: transparent;color: white;}
+}
+
+/* The "responsive" class is added to the topnav with JavaScript
+when the user clicks on the icon. This class makes the topnav look
+good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+
+    .slideshow-container .responsive{
+        margin:auto;
+        background-color: #f1f1f1;
+        height: 600px;
+        overflow: hidden;
+        max-height: 800px }
+    .photo-container .responsive{;width: 100%; overflow: scroll}
+    .image{width: 110%;cursor: pointer}
+}
+
+
+
+
+
+
