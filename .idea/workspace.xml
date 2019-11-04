@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cc6f89d-37ab-4d38-916c-87c71ea8c416" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Promotions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Promotions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +30,7 @@
   </component>
   <component name="ProjectId" id="1T79gHRuSdgfa1aWZ1wtVa8DoKi" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/test_slideshow_1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -60,8 +61,16 @@
       <workItem from="1572801054856" duration="25666000" />
       <workItem from="1572856845503" duration="15000" />
       <workItem from="1572856889348" duration="899000" />
-      <workItem from="1572869286017" duration="1653000" />
+      <workItem from="1572869286017" duration="2873000" />
     </task>
+    <task id="LOCAL-00001" summary="petits réglages :-)">
+      <created>1572870985720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572870985720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="petits réglages :-)" />
+    <option name="LAST_COMMIT_MESSAGE" value="petits réglages :-)" />
   </component>
 </project>
