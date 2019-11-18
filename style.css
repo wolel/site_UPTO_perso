@@ -75,6 +75,7 @@ header {
     color: white;
 }
 
+
 .nav ul {
     list-style: none;
     z-index: 3;
@@ -95,6 +96,14 @@ header {
     box-shadow: 0 2px 2px #17195d;
 }
 
+<<<<<<< HEAD
+=======
+.nav a:hover {
+    color: #fefefe;
+}
+
+
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
 .flex_items {
     width: 20%;
     text-align: center;
@@ -102,7 +111,6 @@ header {
     color:#fefefe;
     letter-spacing: 2px;
     border-bottom: 2px;
-
 }
 .menu-item {
     cursor: pointer;
@@ -110,9 +118,10 @@ header {
 }
 
 .flex_items.logo {
-  background: transparent;
-  align-items: flex-start;
+    background: transparent;
+    align-items: flex-start;
 }
+<<<<<<< HEAD
 
 .flex_items:hover {
      transform: skew(5deg);
@@ -150,7 +159,37 @@ header {
     color: white;
 }
 
+=======
+.flex_items.accueil {
+    background: #f28b0c ;
+}
+.flex_items.formation {
+    background: #f25f29 ;
+}
+.flex_items.promotions {
+    background: #d93679 ;
+}
+.flex_items.contacts {
+    background: #acbf1b ;
+}
+.flex_items.actu {
+    background: #3b728f ;
+}
+.flex_items.partenaires {
+    background: #40178f;
+}
+.flex_items.utilisateurs {
+    background: #3d0d64;
+}
+.flex_items:hover {
+    transform: scale(1.2) translateY(2px);
+    transition: .35s;
+    border-radius: 3px;
+
+}
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
 /*popup login*/
+
 .popup {
     position: fixed;
     display: none;
@@ -174,11 +213,11 @@ header {
     background-color: #3d0d64;
 }
 
-.popup fieldset {
+fieldset {
     margin-top: 1em;
 }
 
-.popup label {
+label {
     display: inline-block;
     width: 95px;
     text-align: right;
@@ -187,7 +226,7 @@ header {
     font-size: medium;
 }
 
-.popup input {
+input {
     margin:2%;
     font: normal 1em sans-serif;
     width: 70%;
@@ -215,7 +254,11 @@ button {
     visibility: visible;
     opacity: 1;
 }
-
+.popup:target .popup-inner {
+    bottom: 0;
+    right: 0;
+    transform: rotate(0);
+}
 .closepopup {
     position: absolute;
     right: 0;
@@ -236,24 +279,41 @@ button {
 
 /*fin popup*/
 
+<<<<<<< HEAD
 
+=======
+span.icon {
+    background: rgba(255, 255, 255, 0.23);
+    width: 2em;
+    height: 2em ;
+    line-height:2em;
+    border-radius:50%;
+    border:1px solid transparent;
+    display:block;
+    font-size: xx-large;
+    text-decoration: none;
+    text-align: center;
+    margin-top: .2em;
+    margin-left: .2em;
+}
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
 
- .enfant {
-     position: relative;
- }
- .enfant:hover > .sous_menu {
-     display:flex;
+.enfant {
+    position: relative;
+}
+.enfant:hover > .sous_menu {
+    display:flex;
 }
 
- .sous_menu {
-     display: none;
-     flex-direction: column;
-     align-content: center;
-     align-items: flex-end;
-     position: relative;
-     background: #d93679;
-     font-size: x-small;
- }
+.sous_menu {
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-end;
+    position: relative;
+    background: #d93679;
+    font-size: x-small;
+}
 .utilisateurs .sous_menu {
     display: none;
     flex-direction: column;
@@ -267,6 +327,7 @@ button {
 .sous-menu a {
     padding-top: .2em;
     text-align: center;
+<<<<<<< HEAD
     color:#161e5c;
 
 }
@@ -275,16 +336,61 @@ button {
 
     overflow: hidden;
     background-size: 100%;
+=======
+    color:white;
 }
 
- /*section*/
+#bandeau img {
+    width:90%;
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
+}
+
+/*section*/
 
 section {
     width: 80%;
     margin: 0 10%;
-    font-size: x-large;
+    font-size: medium;
 }
 
+<<<<<<< HEAD
+=======
+#bloc_gauche {
+    float: left;
+    width: 70%;
+    padding: 2em 5em;
+}
+aside {
+    float: right;
+    width: 30%;
+    padding: 3em;
+    margin-top: 12em;
+    text-align: center;
+    border: 2px groove black;
+    border-radius: 1em;
+}
+
+h1 {
+    font-size: x-large;
+    color: #3b728f;
+    text-align: center;
+    padding: 1.2em;
+}
+
+h1 strong {
+    color: #f25f29;
+}
+
+h2 {
+    font-size: medium;
+    color: #f25f29;
+}
+p {
+    text-align: justify;
+    font-size: small;
+    line-height: 2.1;
+}
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
 
 #titre-aside {
     color: #f25f29;
@@ -300,6 +406,7 @@ section {
     line-height: 2.1em;
     color: #3b728f;
 }
+
 
 /*formation*/
 
@@ -462,8 +569,17 @@ section {
 
 .flex_r {
     width: 33.33%;
+<<<<<<< HEAD
     border-left: 5px solid white;
     padding-left: 30px;
+=======
+}
+.flex_r > h1 {
+    color:#3d0d64;
+}
+
+.flex_r > p {
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
     text-align: center;
 
 }
@@ -536,6 +652,7 @@ section {
 }
 
 
+
 /*footer*/
 
 footer {
@@ -558,12 +675,19 @@ footer {
 
 }
 
+<<<<<<< HEAD
 .fa-envelope-square, .fa-facebook-square, .fa-twitter-square
 {
     color: white;
     padding: 20px;
     margin-top: 10px;
     justify-items: end;
+=======
+#icones_footer > i {
+    font-size: 5em ;
+    color: #40178f;
+    padding: .5em  1.5em;
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
 }
 
 
@@ -616,9 +740,6 @@ footer {
 
 /*petit smart*/
 @media (max-width: 640px) {
-
-
-
     .nav .menu_flex {
         flex-direction: column;
         height: auto;
@@ -666,17 +787,8 @@ footer {
 
 }
 
-/*-------------media queries-----------*/
 
-@media screen and (max-width: 412px) and (max-width: 767px){
-    body{background-color:blue;}
-    .flip-card {
-        background-color: transparent;
-        width:767px;
-        height: 350px;
-        perspective: 800px; /* Remove this if you don't want the 3D effect */
-    }
-}
+
 
 
 

@@ -25,6 +25,7 @@
         <ul class="menu_flex">
 
             <li class="flex_items menu-item accueil"><a href="Accueil.html" ><span class="icon"><i class="fas fa-home"></i></span>
+<<<<<<< HEAD
                 <p class="txtNav">Accueil</p></a></li>
             <li class="flex_items menu-item formation"><a href="Formation.html" ><span class="icon"><i class="fas fa-laptop-code"></i></span>
                 <p class="txtNav">Formation</p></a></li>
@@ -35,6 +36,17 @@
                         <li><a href="#">2018-2019</a></li>
                         <li><a href="#">2019-2020</a></li>
                     </ul>-->
+=======
+                <span>Accueil</span></a></li>
+            <li class="flex_items menu-item formation"><a href="Formation.css" ><span class="icon"><i class="fas fa-laptop-code"></i></span>
+                <span>Formation</span></a></li>
+            <li class="flex_items menu-item promotions enfant"><a href="Promotions.html" ><span class="icon"><i class="fas fa-portrait"></i></span>
+                <span>Promotions</span></a>
+                <ul class="sous_menu">
+                    <li><a href="#">2018-2019</a></li>
+                    <li><a href="#">2019-2020</a></li>
+                </ul>
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
             </li>
             <li class="flex_items menu-item contacts"><a href="Contact.html"><span class="icon"><i class="far fa-paper-plane"></i></span>
                 <p class="txtNav">Contacts</p></a></li>
@@ -51,25 +63,25 @@
                     <li onclick="javascript:afficher_cacher('popup');">Login</li>
                 </ul>
                 <div class="popup" id="popup">
-                        <form method="post" action="#">
-                            <fieldset>
-                                <div class="popuptext">
-                                    <div>
-                                        <label for="pseudo">Login</label>
-                                        <input type="text" name ="pseudo" id="pseudo" maxlength="9"/>
-                                    </div>
-                                    <div>
-                                        <label for="pass">Mot de passe</label>
-                                        <input type="password" name="pass" id="pass">
-                                    </div>
-                                    <div id="submit">
-                                        <button type="submit">Envoyer</button>
-                                    </div>
+                    <form method="post" action="#">
+                        <fieldset>
+                            <div class="popuptext">
+                                <div>
+                                    <label for="pseudo">Login</label>
+                                    <input type="text" name ="pseudo" id="pseudo" maxlength="9"/>
                                 </div>
-                            </fieldset>
-                        </form>
+                                <div>
+                                    <label for="pass">Mot de passe</label>
+                                    <input type="password" name="pass" id="pass">
+                                </div>
+                                <div id="submit">
+                                    <button type="submit">Envoyer</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
                     <a class="closepopup" href="#">X</a>
-                    </div>
+                </div>
 
             </li>
         </ul>
@@ -78,12 +90,19 @@
 </header>
 
 <section>
+<<<<<<< HEAD
     <div class="bloc_gauche">
 
        <div class=" lnVerticale">
         <h1>Bienvenue sur le site de l'école du numérique<strong>Up To!</strong></h1>
       </div>
             <p>Portée par FACE Thiérache, club d'entreprises situé à Fourmies, "Up To",
+=======
+    <div id="bloc_gauche">
+        <h1>Bienvenue sur le site de l'école du numérique
+            <strong>Up To!</strong></h1>
+        <p>Portée par FACE Thiérache, club d'entreprises situé à Fourmies, "Up To",
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
             labellisée Grande École du Numérique par l'Etat a ouvert ses portes le 1er octobre 2018.<br>
             Cette école hors du commun véhicule des valeurs de solidarité et d'entraide dans une démarche inclusive.
             Une aventure humaine, intensive, gratuite et accessible à toutes et à tous
@@ -92,8 +111,9 @@
             L'objectif principal : former des talents aux métiers du numérique et répondre aux nouveaux
             besoins de compétences des entreprises. C'est pourquoi l'école a intégré le réseau des fabriques
             du numérique de Simplon. Elle est également parrainée par l'entreprise Comm'uniq de Fourmies.
-            </p>
+        </p>
         <div>
+<<<<<<< HEAD
             <div class=" lnVerticale">
             <h1>La formation par l'expérience</h1></div>
         <h2 id="notreSlogan">Notre slogan : un peu de théorie, beaucoup de pratique.</h2>
@@ -103,10 +123,20 @@
             par leurs propres moyens les solutions à leurs problèmes.
             Un mois de stage pour se confronter aux exigences d'une entreprise et de ses clients.
             Voila la méthodologie proposée, une mise en pratique innovante et concrète!</p>
+=======
+            <h1>La formation par l'expérience</h1>
+            <h2>Notre slogan : un peu de théorie, beaucoup de pratique.</h2>
+            <p>Une formation dont la sélection se fait sur la motivation et l’envie de travailler en équipe.
+                L'assimillation des notions se fait principalement via des exercices pratiques.
+                L'objectif secondaire : apprendre aux participant-e-s à viser l'autonomie, à chercher
+                par leurs propres moyens les solutions à leurs problèmes.
+                Un mois de stage pour se confronter aux exigences d'une entreprise et de ses clients.
+                Voila la méthodologie proposée, une mise en pratique innovante et concrète!</p>
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
         </div>
     </div>
     <aside>
-        <div class="bloc_droit">
+        <div id="bloc_droit">
             <div id="infos_aside">
                 <img src="img/face_thierache.png" alt="logo Up To">
                 <ul>
@@ -143,8 +173,19 @@
             <i class="fab fa-twitter-square"></i>
             <i class="fas fa-envelope-square"></i>
         </div>
+<<<<<<< HEAD
 
 
+=======
+    </div>
+    <div id="plan_site"> <span> Plan du site</span>
+        <a href="#"> Accueil</a>
+        <a href="#">Formation</a>
+        <a href="#">Promotions</a>
+        <a href="#">Actualités</a>
+        <a href="#">Partenaires</a>
+    </div>
+>>>>>>> e6187b368ed3879a9be5e79a64372408514f65e3
 </footer>
 
 
