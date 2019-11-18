@@ -1,60 +1,137 @@
 * {
     box-sizing: border-box;
 }
-
+/* COLORS */
 body, html {
     width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: "Montserrat Alternates Medium", sans-serif;
+    background-color:#395285;
+    background-image: url("img/transparent-background-01.png");
+
+
+
 }
-
-
-/*-----------Hamburger menu--------------------*/
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: white;
-    overflow: hidden;
+#bandeau_header{
+    background-size: 50%;
 }
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
+p {
+    color: white;
+    font-family: "Open Sans Light", serif;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 42px;
+}
+i{
     text-align: center;
-    padding: 14px 16px;
+    color: white;
+    font-size: 40px;
+    padding: 15px 0 0 0;
+
+}
+i:hover{
+    transform: rotate(360deg);
+    color: white;
+    transition: .4s ease;
+}
+
+.txtNav{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-family: "Open Sans", serif;
+}
+
+.lnVerticale{
+    border-left: 5px solid white;
+    height: auto;
+    width: auto;
+}
+
+h2{
+    color:#f25f29 ;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    padding: 0 0 0 30px;
+    text-align: left;
+}
+
+h1 strong, h2 strong {
+    color: #f25f29;
+
+}
+
+/* header*/
+header {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.nav ul {
+    list-style: none;
+    z-index: 3;
+    padding: 0;
+}
+
+
+.nav a {
+    text-align:center;
     text-decoration: none;
-    font-size: 17px;
+    color:white;
 }
 
-/* Change the color of links on hover */
-#acceuil{background-color: #ff8e00;transition: 1s eas-in-out;color: white}
-#acceuil:hover {background-color: #ff8e00;color: white;transform: scale(0.92);border-radius: 3px}
-#formation{background-color: #f25f29;transition: 1s eas-in-out}
-#formation:hover{background-color: #f25f29;color: white;transform: scale(0.92);border-radius: 3px}
-#contact{background-color:#acbf1b;transition: 1s eas-in-out}
-#contact:hover{background-color: #acbf1b;color: white;transform: scale(0.92);border-radius: 3px}
-#actualités{background-color: #3b728f;transition: 1s eas-in-out}
-#actualités:hover{background-color: #3b728f;color: white;transform: scale(0.92);border-radius: 3px}
-#partenaires{background-color: #40178f;color: white;transition: 1s eas-in-out}
-#partenaires:hover{background-color: #40178f;color: white;transform: scale(0.92);border-radius: 3px}
-#espaceUt{background-color: #3d0d64;color: white}
-#espaceUt:hover{background-color: #3d0d64;color: white;transform: scale(0.92);border-radius: 3px}
-
-/* Add an active class to highlight the current page */
-.topnav a.active {
-    background-color: white;
-    color: #d93679;
+.nav .menu_flex {
+    display:flex;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 2px 2px #17195d;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;}
+.flex_items {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    color:#fefefe;
+    letter-spacing: 2px;
+    border-bottom: 2px;
+
+}
+.menu-item {
+    cursor: pointer;
+    background-color: #395285;
+}
+
+.flex_items.logo {
+    background: transparent;
+    align-items: flex-start;
+
+}
+
+.flex_items:hover {
+    transform: skew(5deg);
+    background-color: #354170;
+    transition: .4s ease;
+
+}
+.fa-home, .fa-laptop-code, .fa-portrait, .fa-paper-plane,.fa-sticky-note,.fa-hands-helping,.fa-sign-in-alt,.fa-envelope-square,.fa-twitter-square,.fa-facebook-square
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 15px 10px 0 10px;
+    transition: .4s ease;
+}
 
 /*-----------PROMOTION--------------------*/
 * {box-sizing:border-box}
-body{margin: 0;padding: 0;background-image: url("img/promotion/triangle_pattern.jpg"); }
+body{margin: 0;padding: 0; }
 h1{text-align: center;font-size: 40px;text-decoration: #2196F3;color: #333;}
 img{vertical-align: middle}
 p{font-size: 20px;line-height: 40px;padding-top: 20px}
@@ -125,6 +202,38 @@ i{font-size: 130%;}
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
+
+/*footer*/
+
+footer {
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: #f25f29;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt_footer p {
+    display: inline-block;
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    padding: 30px;
+    margin-left: 5px;
+
+}
+
+.fa-envelope-square, .fa-facebook-square, .fa-twitter-square
+{
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    justify-items: end;
+}
+
+
 /*----------------------- Fading animation *--------------------------*/
 .fade {
     -webkit-animation-name: fade;
@@ -141,56 +250,7 @@ i{font-size: 130%;}
     from {opacity: .4}
     to {opacity: 1}
 }
-/*---------------Hide the images by default-----------------------*/
 
-/*footer----------------*/
-.footer{
-    background-color: #333;
-    max-width: 100%;
-    height: 100px;
-bottom: 0;
-}
-footer {
-    bottom: 0;
-    width: 100%;
-    height: 250px;
-    background: #f25f29;
-    font-size: smaller;
-    color: white;
-    padding-top: 2em;
-    display: flex;
-    justify-content: space-around;
-}
-
-footer p > a, #plan_site > a {
-    text-decoration: none;
-    color: white;
-}
-#footer_logo {
-    padding-top: 3em;
-}
-
-#footer_milieu > p {
-    text-align: center;
-}
-
-#icones_footer > i {
-    font-size: 4.5em ;
-    color: #40178f;
-    padding: .5em  1.5em;
-}
-#plan_site > span {
-    font-size: medium;
-}
-#plan_site {
-    display: flex;
-    flex-direction: column;
-    line-height: 2.2em;
-}
-#plan_site > a {
-    padding-left: 1.8em;
-    padding-top: .3em;
-}
 
 /* media queries-----------------------------------------------*/
 /*  pour tablettes*/

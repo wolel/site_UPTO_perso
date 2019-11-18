@@ -17,65 +17,46 @@
 <body>
 <header>
     <nav class="nav">
+        <div>
+            <img id="bandeau_header" src="img/background_3.jpg" alt="up_to" style="width: 100%">
+        </div>
         <ul class="menu_flex">
-            <li class="flex_items logo"><img src="img/logo-up-to.jpg" alt="fondation face thierache logo"></li>
+
             <li class="flex_items menu-item accueil"><a href="Accueil.html" ><span class="icon"><i class="fas fa-home"></i></span>
-                <span>Accueil</span></a></li>
+                <p class="txtNav">Accueil</p></a></li>
             <li class="flex_items menu-item formation"><a href="Formation.html" ><span class="icon"><i class="fas fa-laptop-code"></i></span>
-                <span>Formation</span></a></li>
-            <li class="flex_items menu-item promotions enfant"><a href="Promotions.html" ><span class="icon"><i class="fas fa-portrait"></i></span>
-                <span>Promotions</span></a>
-                <ul class="sous_menu">
+                <p class="txtNav">Formation</p></a></li>
+            <li class="flex_items menu-item promotions enfant">
+                <a href="Promotions.html" ><span class="icon"><i class="fas fa-portrait"></i></span>
+                    <p class="txtNav">Promotions</p></a>
+                <!--<ul class="sous_menu">
                     <li><a href="#">2018-2019</a></li>
                     <li><a href="#">2019-2020</a></li>
-                </ul>
+                </ul>-->
             </li>
             <li class="flex_items menu-item contacts"><a href="Contact.html"><span class="icon"><i class="far fa-paper-plane"></i></span>
-                <span>Contacts</span></a></li>
+                <p class="txtNav">Contacts</p></a></li>
 
             <li class="flex_items menu-item actu"><a href="Actualités.html"><span class="icon"><i class="far fa-sticky-note"></i></span>
-                <span>Actualités</span></a></li>
+                <p class="txtNav">Actualités</p></a></li>
 
             <li class="flex_items menu-item partenaires"><a href="Partenaires.html"><span class="icon"><i class="fas fa-hands-helping"></i></span>
-                <span>Partenaires</span></a></li>
+                <p class="txtNav">Partenaires</p></a></li>
 
             <li class="flex_items menu-item utilisateurs enfant"><a href="#popup"><span class="icon"><i class="fas fa-sign-in-alt"></i></span>
-                <span>Espace utilisateurs</span></a>
-                <ul class="sous_menu">
-                    <li onclick="javascript:afficher_cacher('popup');">Login</li>
-                </ul>
-                <div class="popup" id="popup">
-                    <form method="post" action="#">
-                        <fieldset>
-                            <div class="popuptext">
-                                <div>
-                                    <label for="pseudo">Login</label>
-                                    <input type="text" name ="pseudo" id="pseudo" maxlength="9"/>
-                                </div>
-                                <div>
-                                    <label for="pass">Mot de passe</label>
-                                    <input type="password" name="pass" id="pass">
-                                </div>
-                                <div id="submit">
-                                    <button type="submit">Envoyer</button>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                    <a class="closepopup" href="#">X</a>
-                </div>
+                <p class="txtNav">Espace utilisateurs</p></a>
 
             </li>
         </ul>
     </nav>
-    <div>
-        <img id="bandeau" src="img/bandeau_accueil.png" alt="up_to">
-    </div>
+
 </header>
 
 <section>
     <div class="bloc_gauche" id="formation">
+        <div class=" lnVerticale">
         <h1>Devenir développeur web</h1>
+        </div>
         <h2>En huit mois, obtenez les savoirs et les compétences d'un bac+2</h2>
         <p> Huit mois de formation, alternant théorie et exercices tout en privilégiant la pratique.
             Vous apprendrez à créer un site web de A à Z, à le faire fonctionner,
@@ -95,7 +76,10 @@
                 <li>1 jours par semaine d'accompagnement à l'emploi</li>
                 <li>1 mois de stage</li>
             </ul>
+        <div class=" lnVerticale">
         <h1>Prérequis</h1>
+        </div>
+
         <p>AUCUN!</p>
         <p>Connaître les bases du fonctionnement d'un PC et quelques bases en anglais sont toutefois un atout.</p>
     </div>
@@ -123,53 +107,68 @@
                 </div>
             </div>
         </div>
-    <div class="bloc_gauche"><h1>Inscription</h1>
+      <!------------------------------------------------------>
+
+            <div class="bloc_droit2">
+                <fieldset class="inscription">
+                    <div class="form">
+                        <label for="login">Login</label>
+                        <input type="text" name ="pseudo" id="login" maxlength="9"/>
+                    </div>
+                    <div class="form">
+                        <label for="MP">Password</label>
+                        <input type="password" name="pass" id="MP">
+                    </div>
+                    <div class="form">
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" id="mail">
+                    </div>
+                    <div class="form">
+                        <label for="msg"></label>
+                        <textarea name="user_name" id="msg" >Décrivez votre motivation</textarea>
+                    </div>
+                    <div id="envoyer">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </fieldset>
+        <!------------------------------------------------------>
+
+        </div>
+    <div class="bloc_gauche">
+        <div class=" lnVerticale">
+        <h1>Inscription</h1>
+            <div class=" lnVerticale">
         <form method="post" action="#">
-            <fieldset class="inscription">
-                <div class="form">
-                    <label for="login">Login</label>
-                    <input type="text" name ="pseudo" id="login" maxlength="9"/>
-                </div>
-                <div class="form">
-                    <label for="MP">Password</label>
-                    <input type="password" name="pass" id="MP">
-                </div>
-                <div class="form">
-                    <label for="mail">Email</label>
-                    <input type="email" name="mail" id="mail">
-                </div>
-                <div class="form">
-                    <label for="msg"></label>
-                    <textarea name="user_name" id="msg" >Décrivez votre motivation</textarea>
-                </div>
-                <div id="envoyer">
-                    <button type="submit">Envoyer</button>
-                </div>
-            </fieldset>
+
         </form>
     </div>
 </section>
 
 <footer>
-    <div id="footer_logo"> <img src="img/logoface.jpg" alt="logo face thiérache"></div>
-    <div id="footer_milieu">
-        <p> @copyright 2019 - Up To Fourmies <br> Tous droits réservés</p>
-        <p><a href="#">Mentions légales</a></p>
-        <div id="icones_footer">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fas fa-envelope-square"></i>
-        </div>
-    </div>
-    <div id="plan_site"> <span> Plan du site</span>
-        <a href="#"> Accueil</a>
-        <a href="#">Formation</a>
-        <a href="#">Promotions</a>
-        <a href="#">Actualités</a>
-        <a href="#">Partenaires</a>
-    </div>
-</footer>
 
+    <img src="img/logoface.jpg" alt="logo face thiérache">
+
+
+    <div class ="txt_footer" >
+        <p> @copyright 2019 - Up To Fourmies</p>
+        <p>Tous droits réservés</p>
+        <p><a href="#">Mentions légales</a></p>
+        <p> Plan du site : </p>
+        <a href="#"><p> Accueil</p></a>
+        <a href="#"><p>Formation</p></a>
+        <a href="#"><p>Promotions</p></a>
+        <a href="#"><p>Actualités</p></a>
+        <a href="#"><p>Partenaires</p></a>
+
+    </div>
+    <div>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fas fa-envelope-square"></i>
+    </div>
+
+
+</footer>
 
 <script src="btn cacher.js"></script></body>
 </html>

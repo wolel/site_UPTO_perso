@@ -27,7 +27,7 @@
   <component name="ProjectId" id="1T79gHRuSdgfa1aWZ1wtVa8DoKi" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/test_slideshow_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -53,7 +53,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572801051527</updated>
-      <workItem from="1572801054856" duration="25666000" />
+      <workItem from="1572801054856" duration="25850000" />
+      <workItem from="1573982730917" duration="32286000" />
     </task>
     <servers />
   </component>
@@ -65,7 +66,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -19,31 +19,34 @@
 
 <header>
     <nav class="nav">
+        <div>
+            <img id="bandeau_header" src="img/background_3.jpg" alt="up_to" style="width: 100%">
+        </div>
         <ul class="menu_flex">
-            <li class="flex_items logo"><img src="img/logo-up-to.jpg" alt="fondation face thierache logo"></li>
+
             <li class="flex_items menu-item accueil"><a href="Accueil.html" ><span class="icon"><i class="fas fa-home"></i></span>
-                <span>Accueil</span></a></li>
+                <p class="txtNav">Accueil</p></a></li>
             <li class="flex_items menu-item formation"><a href="Formation.html" ><span class="icon"><i class="fas fa-laptop-code"></i></span>
-                <span>Formation</span></a></li>
+                <p class="txtNav">Formation</p></a></li>
             <li class="flex_items menu-item promotions enfant">
                 <a href="Promotions.html" ><span class="icon"><i class="fas fa-portrait"></i></span>
-                <span>Promotions</span></a>
-                    <ul class="sous_menu">
+                <p class="txtNav">Promotions</p></a>
+                    <!--<ul class="sous_menu">
                         <li><a href="#">2018-2019</a></li>
                         <li><a href="#">2019-2020</a></li>
-                    </ul>
+                    </ul>-->
             </li>
             <li class="flex_items menu-item contacts"><a href="Contact.html"><span class="icon"><i class="far fa-paper-plane"></i></span>
-                <span>Contacts</span></a></li>
+                <p class="txtNav">Contacts</p></a></li>
 
             <li class="flex_items menu-item actu"><a href="Actualités.html"><span class="icon"><i class="far fa-sticky-note"></i></span>
-                <span>Actualités</span></a></li>
+                <p class="txtNav">Actualités</p></a></li>
 
             <li class="flex_items menu-item partenaires"><a href="Partenaires.html"><span class="icon"><i class="fas fa-hands-helping"></i></span>
-                <span>Partenaires</span></a></li>
+                <p class="txtNav">Partenaires</p></a></li>
 
             <li class="flex_items menu-item utilisateurs enfant"><a href="#popup"><span class="icon"><i class="fas fa-sign-in-alt"></i></span>
-                <span>Espace utilisateurs</span></a>
+                <p class="txtNav">Espace utilisateurs</p></a>
                 <ul class="sous_menu">
                     <li onclick="javascript:afficher_cacher('popup');">Login</li>
                 </ul>
@@ -71,15 +74,15 @@
             </li>
         </ul>
     </nav>
-    <div>
-        <img id="bandeau" src="img/bandeau_accueil.png" alt="up_to">
-    </div>
+
 </header>
 
 <section>
     <div class="bloc_gauche">
-        <h1>Bienvenue sur le site de l'école du numérique
-            <strong>Up To!</strong></h1>
+
+       <div class=" lnVerticale">
+        <h1>Bienvenue sur le site de l'école du numérique<strong>Up To!</strong></h1>
+      </div>
             <p>Portée par FACE Thiérache, club d'entreprises situé à Fourmies, "Up To",
             labellisée Grande École du Numérique par l'Etat a ouvert ses portes le 1er octobre 2018.<br>
             Cette école hors du commun véhicule des valeurs de solidarité et d'entraide dans une démarche inclusive.
@@ -91,8 +94,9 @@
             du numérique de Simplon. Elle est également parrainée par l'entreprise Comm'uniq de Fourmies.
             </p>
         <div>
-        <h1>La formation par l'expérience</h1>
-        <h2>Notre slogan : un peu de théorie, beaucoup de pratique.</h2>
+            <div class=" lnVerticale">
+            <h1>La formation par l'expérience</h1></div>
+        <h2 id="notreSlogan">Notre slogan : un peu de théorie, beaucoup de pratique.</h2>
         <p>Une formation dont la sélection se fait sur la motivation et l’envie de travailler en équipe.
             L'assimillation des notions se fait principalement via des exercices pratiques.
             L'objectif secondaire : apprendre aux participant-e-s à viser l'autonomie, à chercher
@@ -118,23 +122,29 @@
 </section>
 
 <footer>
-    <div id="footer_logo"> <img src="img/logoface.jpg" alt="logo face thiérache"></div>
-    <div id="footer_milieu">
-        <p> @copyright 2019 - Up To Fourmies <br> Tous droits réservés</p>
+
+        <img src="img/logoface.jpg" alt="logo face thiérache">
+
+
+    <div class ="txt_footer" >
+        <p> @copyright 2019 - Up To Fourmies</p>
+        <p>Tous droits réservés</p>
         <p><a href="#">Mentions légales</a></p>
-        <div id="icones_footer">
+        <p> Plan du site : </p>
+        <a href="#"><p> Accueil</p></a>
+        <a href="#"><p>Formation</p></a>
+        <a href="#"><p>Promotions</p></a>
+        <a href="#"><p>Actualités</p></a>
+        <a href="#"><p>Partenaires</p></a>
+
+    </div>
+        <div>
             <i class="fab fa-facebook-square"></i>
             <i class="fab fa-twitter-square"></i>
             <i class="fas fa-envelope-square"></i>
-            </div>
-    </div>
-    <div id="plan_site"> <span> Plan du site</span>
-            <a href="#"> Accueil</a>
-            <a href="#">Formation</a>
-            <a href="#">Promotions</a>
-            <a href="#">Actualités</a>
-            <a href="#">Partenaires</a>
-    </div>
+        </div>
+
+
 </footer>
 
 

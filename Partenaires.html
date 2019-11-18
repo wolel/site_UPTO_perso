@@ -21,62 +21,42 @@
 
 <header>
     <nav class="nav">
+        <div>
+            <img id="bandeau_header" src="img/background_3.jpg" alt="up_to" style="width: 100%">
+        </div>
         <ul class="menu_flex">
-            <li class="flex_items logo"><img id="logoUpTo" src="img/logo-up-to.jpg" alt="fondation face thierache logo"></li>
+
             <li class="flex_items menu-item accueil"><a href="Accueil.html" ><span class="icon"><i class="fas fa-home"></i></span>
-                <span>Accueil</span></a></li>
+                <p class="txtNav">Accueil</p></a></li>
             <li class="flex_items menu-item formation"><a href="Formation.html" ><span class="icon"><i class="fas fa-laptop-code"></i></span>
-                <span>Formation</span></a></li>
-            <li class="flex_items menu-item promotions enfant"><a href="Promotions.html" ><span class="icon"><i class="fas fa-portrait"></i></span>
-                <span>Promotions</span></a>
-                <ul class="sous_menu">
+                <p class="txtNav">Formation</p></a></li>
+            <li class="flex_items menu-item promotions enfant">
+                <a href="Promotions.html" ><span class="icon"><i class="fas fa-portrait"></i></span>
+                    <p class="txtNav">Promotions</p></a>
+                <!--<ul class="sous_menu">
                     <li><a href="#">2018-2019</a></li>
                     <li><a href="#">2019-2020</a></li>
-                </ul>
+                </ul>-->
             </li>
             <li class="flex_items menu-item contacts"><a href="Contact.html"><span class="icon"><i class="far fa-paper-plane"></i></span>
-                <span>Contacts</span></a></li>
+                <p class="txtNav">Contacts</p></a></li>
 
             <li class="flex_items menu-item actu"><a href="Actualités.html"><span class="icon"><i class="far fa-sticky-note"></i></span>
-                <span>Actualités</span></a></li>
+                <p class="txtNav">Actualités</p></a></li>
 
             <li class="flex_items menu-item partenaires"><a href="Partenaires.html"><span class="icon"><i class="fas fa-hands-helping"></i></span>
-                <span>Partenaires</span></a></li>
+                <p class="txtNav">Partenaires</p></a></li>
 
             <li class="flex_items menu-item utilisateurs enfant"><a href="#popup"><span class="icon"><i class="fas fa-sign-in-alt"></i></span>
-                <span>Espace utilisateurs</span></a>
-                <ul class="sous_menu">
-                    <li onclick="javascript:afficher_cacher('popup');">Login</li>
-                </ul>
-                <div class="popup" id="popup">
-                    <form method="post" action="#">
-                        <fieldset>
-                            <div class="popuptext">
-                                <div>
-                                    <label for="pseudo">Login</label>
-                                    <input type="text" name ="pseudo" id="pseudo" maxlength="9"/>
-                                </div>
-                                <div>
-                                    <label for="pass">Mot de passe</label>
-                                    <input type="password" name="pass" id="pass">
-                                </div>
-                                <div id="submit">
-                                    <button type="submit">Envoyer</button>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                    <a class="closepopup" href="#">X</a>
-                </div>
+                <p class="txtNav">Espace utilisateurs</p></a>
 
             </li>
         </ul>
     </nav>
-    <div class="topnav" id="myTopnav"></div>
 
 </header>
 
-<a href="Accueil.html"><i class="fas fa-angle-left" title="RETOUR"></i></a>
+
 <!--button flip 3D--------------------------logo FOURMIES---------->
 <div id="containerFlex">
     <div class="flip-card">
@@ -221,7 +201,30 @@
             </div>
         </div>
     </div>
-
 </div>
+
+    <footer>
+        <img src="img/logoface.jpg" alt="logo face thiérache">
+
+        <div class ="txt_footer" >
+            <p> @copyright 2019 - Up To Fourmies</p>
+            <p>Tous droits réservés</p>
+            <p><a href="#">Mentions légales</a></p>
+            <p> Plan du site : </p>
+            <a href="#"><p> Accueil</p></a>
+            <a href="#"><p>Formation</p></a>
+            <a href="#"><p>Promotions</p></a>
+            <a href="#"><p>Actualités</p></a>
+            <a href="#"><p>Partenaires</p></a>
+
+        </div>
+        <div>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fas fa-envelope-square"></i>
+        </div>
+
+    </footer>
+
 </body>
 </html>
