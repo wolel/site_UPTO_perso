@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+}
+/* COLORS */
+body, html {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat Alternates Medium", sans-serif;
+    background-color: #395285;
+    background-image: url("img/transparent-background-01.png");
+}
+
+
+.fa-home, .fa-laptop-code, .fa-portrait, .fa-paper-plane,.fa-sticky-note,.fa-hands-helping,.fa-sign-in-alt,.fa-envelope-square,.fa-twitter-square,.fa-facebook-square
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 25px 10px 0 10px;
+    transition: .4s ease;
+}
+i:hover{.fa-home
+    transform: rotate(360deg);
+    color: white;
+}
+
+.titre{
+    font-family: "Open Sans", serif;
+    font-size: 55px;
+    color:white;
+    text-align: left;
+    padding: 30px;
+}
+
+.txtNav{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-family: "Open Sans", serif;
+}
+
+.lnVerticale{
+    border-left: 5px solid white;
+    height: auto;
+    width: auto;
+    margin-left: 120px;
+}
+
+h1 {
+    font-size: 55px;
+    color: white;
+    text-align: left;
+    margin: 25px 30px 50px 30px;
+
+}
+
+ p strong {
+    font-size: 30px;
+    color: #f25f29;
+
+}
+
+
+
+h2 {
+    font-size: medium;
+    padding: .3em;
+    color: #f25f29;
+}
+
+
+#list{
+    margin-left: 140px;
+}
+
+
+.txtActualite{
+    padding-left: 120px;
+    width: 600px;
+    font-family: "Open Sans", serif;
+    margin-top: 20px;
+
+}
+.H2Actualite {
+    padding-left: 160px;
+    text-align: start;
+    width: 700px;
+    font-family: "Open Sans SemiBold", serif;
+    font-size: 25px;
+    color: #f25f29;
+}
+
+/* header*/
+header {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.nav ul {
+    list-style: none;
+    z-index: 3;
+    padding: 0;
+}
+
+
+.nav a {
+    text-align:center;
+    text-decoration: none;
+    color:white;
+}
+
+.nav .menu_flex {
+    display:flex;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 2px 2px #17195d;
+}
+
+.flex_items {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    color:#fefefe;
+    letter-spacing: 2px;
+    border-bottom: 2px;
+
+}
+.menu-item {
+    cursor: pointer;
+    background-color: #395285;
+}
+
+.flex_items.logo {
+    background: transparent;
+    align-items: flex-start;
+}
+
+.flex_items:hover {
+    transform: skew(5deg);
+    background-color: #354170;
+
+}
+.active, .flex_items:hover {
+    transform: skew(5deg);
+    background-color: #354170;
+
+}
+
+.bloc_gauche{
+    float: left;
+    width: 60%;
+    padding: 0 50px 80px 50px;
+    margin-top: 100px;
+
+}
+.bloc_droit {
+    box-shadow: 0 4px 5px #17195d;
+    float: right;
+    width: 37%;
+    padding: 2em;
+    margin: 100px 70px 0 0;
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    color: white;
+}
+.bloc_droit2 {
+    box-shadow: 0 4px 5px #17195d;
+    float: right;
+    width: 37%;
+    padding: 2em;
+    margin: 50px 70px 0 0;
+    text-align: center;
+    background-color: #acbf1b;
+    font-size: 15px;
+    color: white;
+}
+
+#titre-aside {
+    color: #f25f29;
+    font-size: x-large;
+    text-align: center;
+    padding: .5em;
+}
+
+#infos_aside ul {
+    list-style:none;
+    width: 100%;
+    padding-left: 0;
+    line-height: 2.1em;
+    color: #3b728f;
+}
+
+
+/*formation*/
+
+#formation {
+    font-size: medium;
+}
+
+#formation > ul {
+
+    font-weight: normal;
+    line-height: 1.8em;
+    color: white;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.tableau {
+    padding-top: 1.5em;
+}
+
+.col-sm{
+    width: 60px;
+    height: 60px;
+}
+
+.inscription
+{   margin: auto;
+    padding: 1%;
+    width: auto;
+    height: 300px;
+    text-align: center;
+    font-size: medium;
+}
+
+.form > label {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    vertical-align: center;
+}
+
+.form > input, textarea
+{
+    margin:.7em;
+    font: normal 1em sans-serif;
+    width: 65%;
+    vertical-align: center;
+    height: auto;
+}
+
+#envoyer > button {
+    margin: .5em;
+    padding: .5em;
+    width: auto;
+    background-color: white;
+
+}
+
+/*renseignements*/
+
+#renseignements {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-flow: row wrap;
+    background: none;
+    margin-bottom: 3em;
+}
+
+.flex_r {
+    width: 33.33%;
+
+    border-left: 5px solid white;
+    padding-left: 30px;
+
+}
+.flex_r > h1 {
+    color:#3d0d64;
+}
+
+.flex_r > p {
+
+    text-align: center;
+
+}
+
+
+#iframe {
+    margin:2em;
+}
+
+/*Actu*/
+
+.separator {
+    height: 3px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: white;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.row.actu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding-left:1em;
+    padding-right: 2em;
+
+}
+
+.btn_right {
+    text-align: right;
+}
+
+.col-sm3 {
+    margin-right: 2%;
+}
+
+.photo_art {
+    width: 120%;
+}
+
+
+
+
+#notreSlogan{
+    color: #f25f29;
+}
+
+.col-sm9 > .col-sm9 > h2 {
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+}
+.bouton {
+    text-align: right;
+    float: right;
+    background-color: #3b728f;
+    color: white;
+}
+
+
+
+
+/*footer*/
+
+footer {
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: #f25f29;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt_footer p {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 5px;
+    padding: 20px;
+    margin-top: 20px;
+
+
+
+}
+.txtBG{
+    font-family: "Open Sans Light", serif;
+    width: 600px;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 180px;
+
+}
+
+.fa-envelope-square, .fa-facebook-square, .fa-twitter-square {
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    justify-items: end;
+}
+
+
+
+

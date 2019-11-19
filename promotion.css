@@ -225,14 +225,19 @@ footer {
 
 }
 
-.fa-envelope-square, .fa-facebook-square, .fa-twitter-square
-{
+
+.fa-envelope-square, .fa-facebook-square, .fa-twitter-square {
     color: white;
     padding: 20px;
     margin-top: 10px;
     justify-items: end;
 }
+#icones_footer > i {
+    font-size: 5em ;
+    color: #40178f;
+    padding: .5em  1.5em;
 
+}
 
 /*----------------------- Fading animation *--------------------------*/
 .fade {
