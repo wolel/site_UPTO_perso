@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-/* COLORS */
+
 body, html {
     width: 100%;
     height: auto;
@@ -10,133 +10,45 @@ body, html {
     font-family: "Montserrat Alternates Medium", sans-serif;
     background-color:#395285;
     background-image: url("img/transparent-background-01.png");
+}
+/*--------------------------- header*--------------------------*/
 
-
-}
-#bandeau_header{
-    background-size: 50%;
-}
-p {
-    color: white;
-    font-family: "Open Sans Light", serif;
-    text-align: justify;
-    font-size: 18px;
-    line-height: 42px;
-}
-.fa-home, .fa-laptop-code, .fa-portrait, .fa-paper-plane,.fa-sticky-note,.fa-hands-helping,.fa-sign-in-alt,.fa-envelope-square,.fa-twitter-square,.fa-facebook-square
-{
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    padding: 15px 10px 0 10px;
-    transition: .4s ease;
-}
-i:hover{.fa-home
-    transform: rotate(360deg);
-    color: white;
-}
-
-.txtNav{
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    padding: 0;
-    font-family: "Open Sans", serif;
-}
-
-.lnVerticale{
-    border-left: 5px solid white;
-    height: auto;
-    width: auto;
-}
-
-h1 {
-    font-size: 50px;
-    color: white;
-    padding: 0 0 0 30px;
-    text-align: left;
-}
-
-h1 strong, h2 strong {
-    color: #f25f29;
-
-}
-
-h2 {
-    font-size: medium;
-    padding: .3em;
-    color: #f25f29;
-}
-
-/*
-/* header*/
-header {
-    width: 100%;
-    margin: 0 auto 0 auto;
-    text-align: center;
-    color: white;
-}
-
-.nav ul {
+.menu-item{
     list-style: none;
     z-index: 3;
-    padding: 0;
-}
-
-
-.nav a {
     text-align:center;
     text-decoration: none;
     color:white;
+    cursor: pointer;
+    background-color: #395285;
+    border-left: 3px solid #395285;
+    padding: 15px 100px 15px 100px;
 }
 
-.nav .menu_flex {
+.nav .menu-flex {
     display:flex;
+    justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 75px;
     box-shadow: 0 2px 2px #17195d;
 }
 
-.flex_items {
-    width: 20%;
-    text-align: center;
-    font-weight: bold;
-    color:#fefefe;
-    letter-spacing: 2px;
-    border-bottom: 2px;
+.active, .menu-item:hover {
 
-}
-.menu-item {
-    cursor: pointer;
-    background-color: #395285;
-}
-
-.flex_items.logo {
-    background: transparent;
-    align-items: flex-start;
-}
-
-.flex_items:hover {
-    transform: skew(5deg);
     background-color: #354170;
-
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    border-left: 3px solid white;
+    transition: .4s ease;
 }
 
-.bloc_gauche{
-    float: left;
-    width: 60%;
-    padding: 80px 50px 80px 50px;
-    margin-top: 20px;
-
-}
-.bloc_droit {
-    box-shadow: 0 4px 5px #17195d;
-    float: right;
-    width: 37%;
-    padding: 2em;
-    margin-top: 9em;
+.fa-home, .fa-laptop-code, .fa-portrait, .fa-paper-plane,.fa-sticky-note,.fa-hands-helping,.fa-sign-in-alt
+{
     text-align: center;
-    background-color: white;
+    color: white;
+    font-size: 28px;
+
 }
 /*-----------------------PARTENAIRES (Elena)-------------------------------------------------*/
 
@@ -363,11 +275,9 @@ p{text-align: justify-all;line-height: 28px;padding-top: 10px;
     color: white;
     transform: rotateY(180deg);
 }
-/*-----------------------------------------------------------------------------------------FIN--------------*/
-
-/*footer*/
-
+/*----------------------FOOTER----------------------*/
 footer {
+    margin-top: 100px;
     bottom: 0;
     width: 100%;
     height: 100px;
@@ -379,129 +289,33 @@ footer {
 
 .txt_footer p {
     display: inline-block;
-    font-family: "Open Sans", serif;
     font-size: 15px;
-    padding: 30px;
     margin-left: 5px;
-
+    padding: 20px;
+    margin-top: 20px;
 }
 
-
-/*media queries*/
-/*  pour tablettes*/
-@media (max-width:1024px) {
-    #icones_footer > i {
-        font-size: 2.5em;
-        padding: .5em 1em;
-    }
+#icones_footer{
+    font-size: 35px;
+    color: white;
+    margin: 10px 10px 0 0;
+    justify-items: end;
+    text-decoration: none;
+    list-style: none;
 }
-
-/*pour smartphone-landscape-tablettes*/
-@media (max-width: 812px){
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    nav {
-        width: 130%;
-    }
-
-    section {
-        width: 100%;
-    }
-    #bloc_gauche {
-        float: left;
-        width: 63%;
-        margin: 0;
-        padding-left: 1em;
-        padding-bottom: 1em;
-    }
-    section aside {
-        width: 37%;
-        float: right;
-        padding: 0;
-    }
-
-    footer {
-        width: 130%;}
-    #icones_footer > i {
-        font-size: 2.5em;
-        padding: .5em 1em;
-    }
-
+.fa-envelope-square, .fa-facebook-square, .fa-twitter-square{
+    padding: 20px;
+    cursor: pointer;
 }
-
-/*petit smart*/
-@media (max-width: 640px) {
-
-
-    .nav .menu_flex {
-        flex-direction: column;
-        height: auto;
-    }
-
-    #bandeau {
-        display: none
-    }
-
-    section {
-        position: absolute;
-        top: 0;
-        padding-left: 5em;
-    }
-
-    #bloc_gauche {
-        float: right;
-        width: 100%;
-        margin: 0;
-        padding-left: 1em;
-        padding-bottom: 1em;
-    }
-
-    section aside {
-        width: 100%;
-        padding: 0;
-        margin-top: 0;
-    }
-
-    body {
-        position: relative;
-        padding-bottom: 120em;
-    }
-
-    footer {
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-    }
-
-    #icones_footer > i {
-        font-size: 2.5em;
-        padding: .5em 1em;
-    }
-
+.txt_footer2{
+    padding-right: 10px;
+    text-decoration: none;
+    list-style: none;
 }
-
-/*-------------media queries-----------*/
-
-@media screen and (min-width: 320px) and (max-width: 568px){
-       .flip-card {
-        background-color: transparent;
-        width:100%;
-        height: 350px;
-        perspective: 800px;} /* Remove this if you don't want the 3D effect */
-   h2{color: white}
-  }
-
-
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    .flip-card {
-        background-color: transparent;
-        width:50%;
-        height: 350px;}
-
-    h2{color: white}
+a{
+    color: white;
 }
+/*----------------------FOOTER END----------------------*/
 
 
 

@@ -11,6 +11,19 @@ body, html {
     background-color:#395285;
     background-image: url("img/transparent-background-01.png");
 }
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat Alternates Medium", sans-serif;
+    background-color:#395285;
+    background-image: url("img/transparent-background-01.png");
+}
 /*--------------------------- header*--------------------------*/
 
 .menu-item{
@@ -52,75 +65,58 @@ body, html {
 }
 
 
+
 /*----------------------block texte gauche----------------------*/
 
-section {
-    width: 80%;
+section{
+    width: 74%;
+    display: flex;
+    padding: 50px;
     margin-left: auto;
     margin-right: auto;
-}
-#bloc_gauche {
-    float: left;
-    width: 50%;
-    padding: 20px 50px 0 0 ;
-    margin-top: 100px;
-}
-
-#notreSlogan{
-    color: #f25f29;
-    font-size: 30px;
-    margin-left: 160px;
-
-}
-.txtBG{
-    font-family: "Open Sans Light", serif;
+    margin-top: 50px;
+ }
+h2{
+    font-family: "Open Sans", serif;
     text-align: justify;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 30px;
     letter-spacing: 1px;
-    margin-left: 160px;
-    margin-bottom: 50px;
-}
-.lnVerticale{
-    border-left: 5px solid white;
-    height: auto;
-    width: auto;
-    margin-left: 120px;
-}
 
-h1 {
-    font-size: 55px;
+    width: 60%;
+
+}
+.txtActualite{
     color: white;
-    text-align: left;
-    margin: 25px 30px 50px 30px;
+    font-size: 20px;
+    font-family: "Open Sans Light", serif;
+    margin-top: 20px;
+    width: 60%;
 }
-
-
-/*----------------------block droite----------------------*/
-aside {
-    float: right;
-    width: 40%;
-    height: auto;
-    padding: 20px;
-    margin-top: 80px;
-    text-align: center;
+.img{
+    margin-right: 50px;
     background-color: white;
-    border-radius: 20px;
-    box-shadow: 1px 1px 2px #333;
+    padding: 10px 10px 30px 10px;
 }
 
-#infos_aside ul {
-    list-style:none;
-    width: 100%;
-    padding-left: 0;
-    line-height: 80px;
-    color: #3b728f;
-    font-size: 28px;
+.separator{
+    background-color: white;
+    height: 3px;
+    width: 800px;
+    margin-bottom: 30px;
 }
-#logoFaceTh{
-    width: 50%;
+.btn{
+    color: white;
+    background-color: #f25f29;
+    height: 80px;
+    padding: 15px;
+
 }
+
+
+
+
 /*----------------------FOOTER----------------------*/
 footer {
     margin-top: 100px;
@@ -162,11 +158,6 @@ a{
     color: white;
 }
 /*----------------------FOOTER END----------------------*/
-
-
-
-
-
 
 
 

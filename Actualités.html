@@ -10,150 +10,111 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="actualité.css">
     <title>Actualités</title>
+
 </head>
 <body>
 
+<!---------------------------------HEADER----------------------------------------->
 <header>
+    <div>
+        <img id="bandeau_header" src="img/background_3.jpg" alt="up_to" style="width: 100%">
+    </div>
     <nav class="nav">
-        <div>
-            <img id="bandeau_header" src="img/background_3.jpg" alt="up_to" style="width: 100%">
-        </div>
-        <ul class="menu_flex">
 
-            <li class="flex_items menu-item accueil"><a href="index.html" ><span class="icon"><i class="fas fa-home"></i></span>
-                <p class="txtNav">Accueil</p></a></li>
-            <li class="flex_items menu-item formation"><a href="Formation.html" ><span class="icon"><i class="fas fa-laptop-code"></i></span>
-                <p class="txtNav">Formation</p></a></li>
-            <li class="flex_items menu-item promotions enfant">
-                <a href="Promotions.html" ><span class="icon"><i class="fas fa-portrait"></i></span>
-                    <p class="txtNav">Promotions</p></a>
-                <!--<ul class="sous_menu">
-                    <li><a href="#">2018-2019</a></li>
-                    <li><a href="#">2019-2020</a></li>
-                </ul>-->
-            </li>
-            <li class="flex_items menu-item contacts"><a href="Contact.html"><span class="icon"><i class="far fa-paper-plane"></i></span>
-                <p class="txtNav">Contacts</p></a></li>
-
-            <li class="flex_items menu-item actu"><a href="Actualités.html"><span class="icon"><i class="far fa-sticky-note"></i></span>
-                <p class="txtNav">Actualités</p></a></li>
-
-            <li class="flex_items menu-item partenaires"><a href="Partenaires.html"><span class="icon"><i class="fas fa-hands-helping"></i></span>
-                <p class="txtNav">Partenaires</p></a></li>
-
-            <li class="flex_items menu-item utilisateurs enfant"><a href="#popup"><span class="icon"><i class="fas fa-sign-in-alt"></i></span>
-                <p class="txtNav">Espace utilisateurs</p></a>
-
-            </li>
+        <ul class="menu-flex">
+            <a href="index.html" class="menu-item accueil"><li><i class="fas fa-home"></i></li>Accueil</a>
+            <a href="Formation.html"class=" menu-item formation"><li ><i class="fas fa-laptop-code"></i></li> Formation</a>
+            <a href="Promotions.html" class=" menu-item promotions enfant " ><li><i class="fas fa-portrait"></i></li> Promotions</a>
+            <a href="Contact.html" class="menu-item contacts"><li ><i class="far fa-paper-plane"></i></li> Contacts</a>
+            <a href="Actualités.html" class=" menu-item actu active"><li ><i class="far fa-sticky-note"></i></li> Actualités</a>
+            <a href="Partenaires.html" class=" menu-item partenaires"><li ><i class="fas fa-hands-helping"></i></li> Partenaires</a>
+            <a href="#popup" class="menu-item utilisateurs enfant"><li ><i class="fas fa-sign-in-alt"></i></li> Espace utilisateurs</a>
         </ul>
     </nav>
-
-
 </header>
 
+<!---------------------------------SECTION----------------------------------------->
 
+<section>
 
-<section class="container_actus">
-    <div class="separator"></div>
-    <div class="row actu">
-        <div class="col-sm3"> <img class="photo_art" src="img/conf_press1.jpg" alt="promotion 2019"> </div>
-        <div class="col-sm9 btn_right">
-            <h2 class="H2Actualite">Fourmies : cette année, l’École du numérique aura aussi un accent belge - oct 2019</h2>
-            <p class="txtActualite">La deuxième session de l’École du numérique, qui vise à former gratuitement
-                des développeurs Web, a ouvert ses portes à Fourmies. Avec cette nouveauté :
-                sur les 24 stagiaires présents, huit viennent de Belgique.</p>
-
-        </div>
-
-    </div>
-    <a href="https://www.lavoixdunord.fr/652031/article/2019-10-15/fourmies-cette-annee-l-ecole-du-numerique-aura-aussi-un-accent-belge#&VP=0" target="_blank" class="btn bouton">Lire la suite</a>
-    <div class="separator"></div>
-    <div class="row actu">
-        <div class="col-sm3"> <img class="photo_art" src="img/conf_press2.jpg" alt="conférence presse octobre 2019"> </div>
-        <div class="col-sm9 btn_right">
-            <h2 class="H2Actualite">[Fourmies] Ecole du numérique : une session transfrontalière - oct 2019</h2>
-            <p class="txtActualite">Environ 3 000 emplois dans les métiers du numérique sont à pourvoir
-                dans les Hauts-de-France. L'enquête BMO de Pôle Emploi montre que
-                63% des recrutements sont jugés difficiles dans le secteur du numérique.</p>
-
-        </div>
-
-    </div>
-    <a href="http://mickaelhiraux.over-blog.com/2019/10/fourmies-ecole-du-numerique-une-session-transfrontaliere.html" target="_blank" class="btn bouton">Lire la suite</a>
-    <div class="separator"></div>
-    <div class="row actu">
-        <div class="col-sm3"> <img class="photo_art" src="img/partenaires.jpg" alt="conférence de presse site face thiérache"> </div>
-        <div class="col-sm9 btn_right">
-            <h2 class="H2Actualite">Conférence de presse à l'école du numérique de #fourmies - Facebook oct 2019</h2>
-            <p class="txtActualite">La première école du numérique transfrontalière.
-                Fondation Chimay Wartoise Interreg France-Wallonie-Vlaanderen
-                Mickaël Hiraux Communauté de Communes Sud Avesnois Nord Mon Département
-                Réussir en Sambre Avesnois Région Hauts-de-France</p>
-
-        </div>
-
-    </div>
-    <a href="https://www.facebook.com/facethierache/posts/2379769792246259" target="_blank" class="btn bouton">Lire la suite</a>
-    <div class="separator"></div>
-    <div class="row actu">
-        <div class="col-sm3"> <img class="photo_art" src="img/promo2.jpg" alt="rentrée promo 2"> </div>
-        <div class="col-sm9 btn_right">
-            <h2 class="H2Actualite">Rentrée des apprenants session#2 de l’école du numérique de Fourmies 👌ce matin - Facebook sept 2019</h2>
-            <p class="txtActualite">Fondation Chimay Wartoise Interreg France-Wallonie-Vlaanderen Mickaël Hiraux
-                Communauté de Communes Sud Avesnois Nord Mon Département
-                Réussir en Sambre Avesnois Région Hauts-de-France</p>
-        </div>
-
-    </div>
-    <a href="http://mickaelhiraux.over-blog.com/2019/10/fourmies-ecole-du-numerique-une-session-transfrontaliere.html" target="_blank" class="btn bouton">Lire la suite</a>
-    <div class="separator"></div>
-    <div class="row actu">
-        <div class="col-sm3"> <img class="photo_art" src="img/promo1.jpg" alt="promo 1 2018"> </div>
-        <div class="col-sm9 btn_right">
-            <h2 class="H2Actualite">Fourmies L’École régionale du Numérique ouvre son site aux futurs développeurs Web - oct 2018</h2>
-            <p class="txtActualite">Parmi les 29 sites de l’École régionale du Numérique implantés dans les
-                Hauts-de-France, celui de Fourmies a ouvert ses portes le 1er octobre.
-                Pendant huit mois, il va former, gratuitement, 24 stagiaires à la programmation
-                de pages Internet ou d’applications mobiles pour smartphones.
-                Parce que ce secteur économique recrute.</p>
-
-        </div>
-
-    </div>
-
-    <a href="https://www.lavoixdunord.fr/465874/article/2018-10-09/l-ecole-regionale-du-numerique-ouvre-son-site-aux-futurs-developpeurs-web#&VP=0" target="_blank" class="btn bouton">Lire la suite</a>
-
-
-
+    <img class="img" src="img/conf_press1.jpg" alt="promotion 2019">
+    <h2>Fourmies : cette année, l’École du numérique aura aussi<br> un accent belge octobre 2019
+     <p class="txtActualite">La deuxième session de l’École du numérique, qui vise à former gratuitement
+     des développeurs Web, a ouvert ses portes à Fourmies. Avec cette nouveauté :</p></h2>
 
 </section>
 
 
+<section>
+
+        <img class="img" src="img/conf_press2.jpg" alt="conférence presse octobre 2019">
+          <h2>[Fourmies] Ecole du numérique : une session transfrontalière<br> octobre 2019
+              <p class="txtActualite">Environ 3 000 emplois dans les métiers du numérique sont à pourvoir
+              dans les Hauts-de-France. L'enquête BMO de Pôle Emploi montre que
+              63% des recrutements sont jugés difficiles dans le secteur du numérique.</p></h2>
+
+    <a href="https://www.lavoixdunord.fr/652031/article/2019-10-15/fourmies-cette-annee-l-ecole-du-numerique-aura-aussi-un-accent-belge#&VP=0" target="_blank" class="btn bouton">Lire la suite</a>
+</section>
+
+
+<section>
+        <img class="img"  src="img/partenaires.jpg" alt="conférence de presse site face thiérache">
+        <h2>Conférence de presse à l'école du numérique de #fourmies<br>Facebook octobre 2019
+                    <p class="txtActualite">La première école du numérique transfrontalière.
+                    Fondation Chimay Wartoise Interreg France-Wallonie-Vlaanderen
+                    Mickaël Hiraux Communauté de Communes Sud Avesnois Nord Mon Département
+                    Réussir en Sambre Avesnois Région Hauts-de-France</p></h2>
+        <a href="http://mickaelhiraux.over-blog.com/2019/10/fourmies-ecole-du-numerique-une-session-transfrontaliere.html" target="_blank" class="btn bouton">Lire la suite</a>
+</section>
+
+
+
+<section>
+     <img class="img"  src="img/promo2.jpg" alt="rentrée promo 2">
+    <h2>Rentrée des apprenants session#2<br>  de l’école du numériquede Fourmies ce matin<br> Facebook septembre 2019
+        <p class="txtActualite">24 apprenants dont 6 belges</p></h2>
+     <a href="https://www.facebook.com/facethierache/posts/2379769792246259" target="_blank" class="btn">Lire la suite</a>
+</section>
+
+
+<section style="height: 390px">
+    <img class="img"  src="img/promo1.jpg" alt="promo 1 2018">
+     <h2>Fourmies L’École régionale du Numérique ouvre son site<br> aux futurs développeurs Weboctobre 2018
+         <p class="txtActualite">
+          Parmi les 29 sites de l’École régionale du Numérique implantés dans les
+          Hauts-de-France, celui de Fourmies a ouvert ses portes le 1er octobre.
+          Pendant huit mois, il va former, gratuitement, 24 stagiaires à la programmation
+          de pages Internet ou d’applications mobiles pour smartphones.
+          Parce que ce secteur économique recrute.</p></h2>
+
+        <a href="http://mickaelhiraux.over-blog.com/2019/10/fourmies-ecole-du-numerique-une-session-transfrontaliere.html" target="_blank" class="btn bouton">Lire la suite</a>
+</section>
+
+<!---------------------------------FOOTER----------------------------------------->
 
 <footer>
-
     <img src="img/logoface.jpg" alt="logo face thiérache">
 
-
     <div class ="txt_footer" >
-        <p> @copyright 2019 - Up To Fourmies</p>
+        <p>@copyright 2019 - Up To Fourmies</p>
         <p>Tous droits réservés</p>
-        <p><a href="#">Mentions légales</a></p>
+        <a href="#"class="txt_footer2">Mentions légales</a>
         <p> Plan du site : </p>
-        <a href="index.html"><p> Accueil</p></a>
-        <a href="Formation.html"><p>Formation</p></a>
-        <a href="Promotions.html"><p>Promotions</p></a>
-        <a href="Actualités.html"><p>Actualités</p></a>
-        <a href="Partenaires.html"><p>Partenaires</p></a>
+        <a href="index.html"class="txt_footer2">Accueil </a>
+        <a href="Formation.html" class="txt_footer2">Formation </a>
+        <a href="Promotions.html" class="txt_footer2">Promotions </a>
+        <a href="Actualités.html" class="txt_footer2">Actualités </a>
+        <a href="Partenaires.html" class="txt_footer2">Partenaires </a>
 
     </div>
-    <div>
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fas fa-envelope-square"></i>
+    <div id="icones_footer">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fas fa-envelope-square"></i></a>
     </div>
+
 </footer>
 
 

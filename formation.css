@@ -1,47 +1,67 @@
 * {
     box-sizing: border-box;
 }
-/* COLORS */
+
 body, html {
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
     font-family: "Montserrat Alternates Medium", sans-serif;
-    background-color: #395285;
+    background-color:#395285;
     background-image: url("img/transparent-background-01.png");
 }
+/*--------------------------- header*--------------------------*/
 
+.menu-item{
+    list-style: none;
+    z-index: 3;
+    text-align:center;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    background-color: #395285;
+    border-left: 3px solid #395285;
+    padding: 15px 100px 15px 100px;
+}
 
-.fa-home, .fa-laptop-code, .fa-portrait, .fa-paper-plane,.fa-sticky-note,.fa-hands-helping,.fa-sign-in-alt,.fa-envelope-square,.fa-twitter-square,.fa-facebook-square
+.nav .menu-flex {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    box-shadow: 0 2px 2px #17195d;
+}
+
+.active, .menu-item:hover {
+
+    background-color: #354170;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    border-left: 3px solid white;
+    transition: .4s ease;
+}
+
+.fa-home, .fa-laptop-code, .fa-portrait, .fa-paper-plane,.fa-sticky-note,.fa-hands-helping,.fa-sign-in-alt
 {
     text-align: center;
     color: white;
-    font-size: 40px;
-    padding: 25px 10px 0 10px;
-    transition: .4s ease;
-}
-i:hover{.fa-home
-    transform: rotate(360deg);
-    color: white;
+    font-size: 28px;
+
 }
 
-.titre{
-    font-family: "Open Sans", serif;
-    font-size: 55px;
-    color:white;
-    text-align: left;
-    padding: 30px;
+/*------------------------SECTION  block gauche--------------------------------*/
+section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.txtNav{
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    padding: 0;
-    font-family: "Open Sans", serif;
+.bloc_gauche{
+    float: left;
+    width: 50%;
+    margin-top: 100px;
 }
-
 .lnVerticale{
     border-left: 5px solid white;
     height: auto;
@@ -54,181 +74,63 @@ h1 {
     color: white;
     text-align: left;
     margin: 25px 30px 50px 30px;
+    width: 600px;
+    font-family: "Open Sans", serif;
 
+}
+h2 {
+    color: #f25f29;
+    margin-left: 160px;
+    text-align: start;
+    font-family: "Open Sans SemiBold", serif;
+    font-size: 25px;
 }
 
  p strong {
     font-size: 30px;
     color: #f25f29;
-
 }
 
-
-
-h2 {
-    font-size: medium;
-    padding: .3em;
-    color: #f25f29;
-}
-
-
-#list{
-    margin-left: 140px;
-}
-
-
-.txtActualite{
-    padding-left: 120px;
-    width: 600px;
-    font-family: "Open Sans", serif;
-    margin-top: 20px;
-
-}
-.H2Actualite {
-    padding-left: 160px;
-    text-align: start;
-    width: 700px;
-    font-family: "Open Sans SemiBold", serif;
-    font-size: 25px;
-    color: #f25f29;
-}
-
-/* header*/
-header {
-    width: 100%;
-    margin: 0 auto 0 auto;
-    text-align: center;
+p {
+    font-family: "Open Sans Light", serif;
+    text-align: justify;
     color: white;
-}
-
-.nav ul {
-    list-style: none;
-    z-index: 3;
-    padding: 0;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-bottom: 50px;
 }
 
 
-.nav a {
-    text-align:center;
-    text-decoration: none;
-    color:white;
-}
-
-.nav .menu_flex {
-    display:flex;
-    width: 100%;
-    height: 100px;
-    box-shadow: 0 2px 2px #17195d;
-}
-
-.flex_items {
-    width: 20%;
-    text-align: center;
-    font-weight: bold;
-    color:#fefefe;
-    letter-spacing: 2px;
-    border-bottom: 2px;
-
-}
-.menu-item {
-    cursor: pointer;
-    background-color: #395285;
-}
-
-.flex_items.logo {
-    background: transparent;
-    align-items: flex-start;
-}
-
-.flex_items:hover {
-    transform: skew(5deg);
-    background-color: #354170;
-
-}
-.active, .flex_items:hover {
-    transform: skew(5deg);
-    background-color: #354170;
-
-}
-
-.bloc_gauche{
-    float: left;
-    width: 60%;
-    padding: 0 50px 80px 50px;
-    margin-top: 100px;
-
-}
-.bloc_droit {
-    box-shadow: 0 4px 5px #17195d;
+/*------------------------SECTION  block droite--------------------------------*/
+aside {
     float: right;
-    width: 37%;
-    padding: 2em;
-    margin: 100px 70px 0 0;
-    text-align: center;
-    background-color: white;
-    font-size: 15px;
-    color: white;
+    width: 40%;
 }
+#technologie{
+    color: #f25f29;
+     margin-left: 220px;
+}
+.container{
+    padding: 30px;
+    margin-top: 80px;
+    background-color: white;
+    box-shadow: 0 4px 5px #17195d;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
 .bloc_droit2 {
     box-shadow: 0 4px 5px #17195d;
     float: right;
-    width: 37%;
-    padding: 2em;
-    margin: 50px 70px 0 0;
-    text-align: center;
+    padding: 80px 50px 50px 40px;
+    margin-top: 30px;
     background-color: #acbf1b;
     font-size: 15px;
     color: white;
-}
-
-#titre-aside {
-    color: #f25f29;
-    font-size: x-large;
-    text-align: center;
-    padding: .5em;
-}
-
-#infos_aside ul {
-    list-style:none;
-    width: 100%;
-    padding-left: 0;
-    line-height: 2.1em;
-    color: #3b728f;
-}
-
-
-/*formation*/
-
-#formation {
-    font-size: medium;
-}
-
-#formation > ul {
-
-    font-weight: normal;
-    line-height: 1.8em;
-    color: white;
+    border-radius: 20px;
     font-family: "Open Sans", serif;
-    font-size: 18px;
-    padding-bottom: 30px;
-}
-
-.tableau {
-    padding-top: 1.5em;
-}
-
-.col-sm{
-    width: 60px;
-    height: 60px;
-}
-
-.inscription
-{   margin: auto;
-    padding: 1%;
-    width: auto;
-    height: 300px;
-    text-align: center;
-    font-size: medium;
+    width: 100%;
 }
 
 .form > label {
@@ -237,113 +139,30 @@ header {
     text-align: right;
     vertical-align: center;
 }
-
-.form > input, textarea
+textarea{
+    margin:.7em;
+    width: 70%;
+    height: 80px;
+}
+.form > input
 {
     margin:.7em;
-    font: normal 1em sans-serif;
-    width: 65%;
-    vertical-align: center;
+    font: 15px "Open Sans", serif;
+    width: 70%;
     height: auto;
 }
 
 #envoyer > button {
-    margin: .5em;
-    padding: .5em;
+    vertical-align: center;
+    padding: 20px;
     width: auto;
     background-color: white;
-
-}
-
-/*renseignements*/
-
-#renseignements {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-flow: row wrap;
-    background: none;
-    margin-bottom: 3em;
-}
-
-.flex_r {
-    width: 33.33%;
-
-    border-left: 5px solid white;
-    padding-left: 30px;
-
-}
-.flex_r > h1 {
-    color:#3d0d64;
-}
-
-.flex_r > p {
-
-    text-align: center;
-
+    font-family: "Open Sans", serif;
+    margin-left: 150px;
 }
 
 
-#iframe {
-    margin:2em;
-}
-
-/*Actu*/
-
-.separator {
-    height: 3px;
-    width: 100%;
-    border: none;
-    box-shadow: none;
-    background-color: white;
-    margin-top: 3%;
-    margin-bottom: 2%;
-}
-.row.actu {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    padding-left:1em;
-    padding-right: 2em;
-
-}
-
-.btn_right {
-    text-align: right;
-}
-
-.col-sm3 {
-    margin-right: 2%;
-}
-
-.photo_art {
-    width: 120%;
-}
-
-
-
-
-#notreSlogan{
-    color: #f25f29;
-}
-
-.col-sm9 > .col-sm9 > h2 {
-    text-align: left;
-    font-size: medium;
-    font-weight: bold;
-}
-.bouton {
-    text-align: right;
-    float: right;
-    background-color: #3b728f;
-    color: white;
-}
-
-
-
-
-/*footer*/
-
+/*----------------------FOOTER----------------------*/
 footer {
     margin-top: 100px;
     bottom: 0;
@@ -361,30 +180,26 @@ footer {
     margin-left: 5px;
     padding: 20px;
     margin-top: 20px;
-
-
-
-}
-.txtBG{
-    font-family: "Open Sans Light", serif;
-    width: 600px;
-    text-align: justify;
-    color: white;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    color: white;
-    margin-left: 180px;
-
 }
 
-.fa-envelope-square, .fa-facebook-square, .fa-twitter-square {
+#icones_footer{
+    font-size: 35px;
     color: white;
-    padding: 20px;
-    margin-top: 10px;
+    margin: 10px 10px 0 0;
     justify-items: end;
+    text-decoration: none;
+    list-style: none;
 }
-
-
-
-
+.fa-envelope-square, .fa-facebook-square, .fa-twitter-square{
+    padding: 20px;
+    cursor: pointer;
+}
+.txt_footer2{
+    padding-right: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: white;
+}
+/*----------------------FOOTER END----------------------*/
