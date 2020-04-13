@@ -1,7 +1,7 @@
-<?php
-require 'header.php';
-require 'footer.php';
-?>
+<?php require 'header.php'; ?>
+<link rel="stylesheet" href="css/style.css">
+
+
 <!---------------------------------SECTION----------------------------------------->
 <section>
     <div id="bloc_gauche">
@@ -48,9 +48,4 @@ require 'footer.php';
     </aside>
 </section>
 
-</body>
-</html>
-
-<?php
-require 'footer.php';
-?>
+<?php require 'footer.php'; ?>

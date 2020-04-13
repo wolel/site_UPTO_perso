@@ -30,3 +30,25 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+
+#icones_footer{
+    justify-items: end;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    width: 200px;
+}
+.fa-facebook-square,.fa-twitter-square,.fa-envelope-square{
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+    transform: scale(1);
+}
+.fa-facebook-square:hover, .fa-twitter-square:hover,.fa-envelope-square:hover{
+    transform: scale(1.2);
+    transition: transform ease-in-out .4s;
+    color:rgb(58,85,159);
+}
+a{
+    color: white;
+}

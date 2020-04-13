@@ -7,13 +7,13 @@
     <div class ="txt_footer" >
         <p>@copyright 2019 - Up To Fourmies</p>
         <p>Tous droits réservés</p>
-        <a href="#"class="txt_footer2">Mentions légales</a>
+        <a href="#" class=" txt_footer2">Mentions légales</a>
         <p> Plan du site : </p>
-        <a href="index.html"class="txt_footer2">Accueil </a>
-        <a href="Formation.html" class="txt_footer2">Formation </a>
-        <a href="Promotions.html" class="txt_footer2">Promotions </a>
-        <a href="Actualités.html" class="txt_footer2">Actualités </a>
-        <a href="Partenaires.html" class="txt_footer2">Partenaires </a>
+        <a href="index.php" class="txt_footer2">Accueil </a>
+        <a href="formation.php" class="txt_footer2">Formation </a>
+        <a href="promotion.php" class="txt_footer2">Promotions </a>
+        <a href="actualites.php" class="txt_footer2">Actualités </a>
+        <a href="partenaires.php" class="txt_footer2">Partenaires </a>
 
     </div>
     <div id="icones_footer">
@@ -25,5 +25,5 @@
 </footer>
 
 
-<script src="js/btn cacher.js"></script>
+<script src="js/btn_cacher.js"></script>
 <?php

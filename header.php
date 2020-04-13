@@ -20,12 +20,12 @@
     </div>
 
     <nav>
-        <a href="index.html" class="menu-item accueil active"><li><i class="fas fa-home"></i></li>Accueil</a>
-        <a href="Formation.html"class=" menu-item formation"><li ><i class="fas fa-laptop-code"></i></li> Formation</a>
-        <a href="Promotions.html" class=" menu-item promotions enfant " ><li><i class="fas fa-portrait"></i></li> Promotions</a>
-        <a href="Contact.html" class="menu-item contacts"><li ><i class="far fa-paper-plane"></i></li> Contacts</a>
-        <a href="Actualités.html" class=" menu-item actu"><li ><i class="far fa-sticky-note"></i></li> Actualités</a>
-        <a href="Partenaires.html" class=" menu-item partenaires"><li ><i class="fas fa-hands-helping"></i></li> Partenaires</a>
+        <a href="index.php" class="menu-item accueil active"><li><i class="fas fa-home"></i></li>Accueil</a>
+        <a href="formation.php"class=" menu-item formation"><li ><i class="fas fa-laptop-code"></i></li> Formation</a>
+        <a href="promotion.php" class=" menu-item promotions enfant " ><li><i class="fas fa-portrait"></i></li> Promotions</a>
+        <a href="contact.php" class="menu-item contacts"><li ><i class="far fa-paper-plane"></i></li> Contacts</a>
+        <a href="actualites.php" class=" menu-item actu"><li ><i class="far fa-sticky-note"></i></li> Actualités</a>
+        <a href="partenaires.php" class=" menu-item partenaires"><li ><i class="fas fa-hands-helping"></i></li> Partenaires</a>
         <a href="#popup" class="menu-item utilisateurs enfant"><li ><i class="fas fa-sign-in-alt"></i></li> Espace utilisateurs</a>
     </nav>
 </header>

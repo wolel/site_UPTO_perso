@@ -3,11 +3,14 @@
 
 
 <section>
+
     <div class="bloc_gauche" id="formation">
         <div class=" lnVerticale">
             <h1>Devenir développeur web</h1>
         </div>
+
         <h2>En huit mois, obtenez les savoirs et les compétences d'un bac+2</h2>
+
         <p class="txtBG"> Huit mois de formation, alternant théorie et exercices tout en privilégiant la pratique.
             Vous apprendrez à créer un site web de A à Z, à le faire fonctionner, le sécuriser et le relier avec les bases de données adéquates. <br><br>
             - 840h dédiées au développement<br>
@@ -21,13 +24,12 @@
             - 1 mois de stage<br>
         </p>
 
-
-
         <div class=" lnVerticale">
             <h1 class="titre">Prérequis</h1>
         </div>
 
         <p class="txtBG"><strong>AUCUN!</strong> Connaître les bases du fonctionnement d'un PC et quelques bases en anglais sont toutefois un atout.</p>
+
     </div>
 
     <aside>
