@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="444bb648-8e9b-4a0e-a482-1c44e81c31a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Actualités.html" beforeDir="false" afterPath="$PROJECT_DIR$/Actualités.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actualité.css" beforeDir="false" afterPath="$PROJECT_DIR$/actualité.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actualité.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/actualité.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btn cacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/btn cacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/formation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partenaires.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/partenaires.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promotion.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/promotion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promotion.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/promotion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1Tti6hcS2jgJcP3WlQFIGpJAzAZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,11 +66,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PHP/Parlons_peu_v2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Utilisateur\PhpstormProjects\hide\autres\site_UPTO_perso.index\js" />
+      <recent name="C:\Users\Utilisateur\PhpstormProjects\hide\autres\site_UPTO_perso.index\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\e\Documents\GitHub\site_UpTo_perso" />
     </key>
@@ -80,8 +103,17 @@
       <option name="presentableId" value="Default" />
       <updated>1574285618164</updated>
       <workItem from="1574285619236" duration="21432000" />
-      <workItem from="1586212192716" duration="819000" />
+      <workItem from="1586212192716" duration="2486000" />
+      <workItem from="1586734334993" duration="3301000" />
     </task>
+    <task id="LOCAL-00001" summary="avec petites modif">
+      <created>1586213029614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586213029614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +131,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="avec petites modif" />
+    <option name="LAST_COMMIT_MESSAGE" value="avec petites modif" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="294" y="124" key="#CLI_Interpreters" timestamp="1586736621262">
+      <screen x="0" y="67" width="1600" height="793" />
+    </state>
+    <state x="294" y="124" key="#CLI_Interpreters/0.67.1600.793@0.67.1600.793" timestamp="1586736621262" />
+    <state x="437" y="72" key="#PHP" timestamp="1586736624068">
+      <screen x="0" y="67" width="1600" height="793" />
+    </state>
+    <state x="437" y="72" key="#PHP/0.67.1600.793@0.67.1600.793" timestamp="1586736624068" />
+    <state x="426" y="20" key="CommitChangelistDialog2" timestamp="1586213028367">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="426" y="20" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1586213028367" />
+    <state x="611" y="181" key="FileChooserDialogImpl" timestamp="1586244134053">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="611" y="181" key="FileChooserDialogImpl/0.0.1600.860/-1920.-169.1920.1040@0.0.1600.860" timestamp="1586244134053" />
+    <state x="548" y="398" key="NewPhpFileDialog" timestamp="1586736901565">
+      <screen x="0" y="67" width="1600" height="793" />
+    </state>
+    <state x="548" y="398" key="NewPhpFileDialog/0.67.1600.793@0.67.1600.793" timestamp="1586736901565" />
   </component>
 </project>

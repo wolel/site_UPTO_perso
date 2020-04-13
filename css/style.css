@@ -1,0 +1,105 @@
+
+/*----------------------block texte gauche----------------------*/
+
+section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bloc_gauche {
+    float: left;
+    width: 60%;
+    padding: 20px 50px 0 0;
+    margin-top: 100px;
+    margin-left: -140px;
+}
+
+#notreSlogan{
+    color: #f25f29;
+    font-size: 30px;
+    margin-left: 160px;
+
+}
+.txtBG{
+    font-family: "Open Sans Light", serif;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+.lnVerticale{
+    border-left: 5px solid white;
+    height: auto;
+    width: auto;
+    margin-left: 120px;
+}
+
+h1 {
+    font-size: 55px;
+    color: white;
+    text-align: left;
+    margin: 25px 30px 50px 30px;
+}
+
+
+/*----------------------block droite----------------------*/
+aside {
+    float: right;
+    width: 40%;
+    height: 700px;
+    padding: 20px;
+    margin-top: 30%;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px #333;
+}
+
+#infos_aside ul {
+    list-style:none;
+    width: 100%;
+    padding-left: 0;
+    line-height: 80px;
+    color: #3b728f;
+    font-size: 28px;
+}
+#logoFaceTh{
+    width: 50%;
+}
+
+
+#icones_footer{
+    font-size: 30px;
+    color: white;
+    justify-items: end;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    margin: 20px 30px 0 0;
+}
+
+
+a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

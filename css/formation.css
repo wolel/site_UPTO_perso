@@ -9,7 +9,7 @@ body, html {
     padding: 0;
     font-family: "Montserrat Alternates Medium", sans-serif;
     background-color:#395285;
-    background-image: url("img/transparent-background-01.png");
+    background-image: url("../img/transparent-background-01.png");
 }
 /*--------------------------- header*--------------------------*/
 
@@ -51,36 +51,16 @@ body, html {
 
 }
 
-
-/*----------------------block texte gauche----------------------*/
-
+/*------------------------SECTION  block gauche--------------------------------*/
 section {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-#bloc_gauche {
+.bloc_gauche{
     float: left;
     width: 50%;
-    padding: 20px 50px 0 0 ;
     margin-top: 100px;
-}
-
-#notreSlogan{
-    color: #f25f29;
-    font-size: 30px;
-    margin-left: 160px;
-
-}
-.txtBG{
-    font-family: "Open Sans Light", serif;
-    text-align: justify;
-    color: white;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    margin-left: 160px;
-    margin-bottom: 50px;
 }
 .lnVerticale{
     border-left: 5px solid white;
@@ -94,33 +74,94 @@ h1 {
     color: white;
     text-align: left;
     margin: 25px 30px 50px 30px;
+    width: 600px;
+    font-family: "Open Sans", serif;
+
+}
+h2 {
+    color: #f25f29;
+    margin-left: 160px;
+    text-align: start;
+    font-family: "Open Sans SemiBold", serif;
+    font-size: 25px;
+}
+
+ p strong {
+    font-size: 30px;
+    color: #f25f29;
+}
+
+p {
+    font-family: "Open Sans Light", serif;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-bottom: 50px;
 }
 
 
-/*----------------------block droite----------------------*/
+/*------------------------SECTION  block droite--------------------------------*/
 aside {
     float: right;
     width: 40%;
-    height: auto;
-    padding: 20px;
+}
+#technologie{
+    color: #f25f29;
+     margin-left: 220px;
+}
+.container{
+    padding: 30px;
     margin-top: 80px;
-    text-align: center;
     background-color: white;
+    box-shadow: 0 4px 5px #17195d;
+    text-align: center;
     border-radius: 20px;
-    box-shadow: 1px 1px 2px #333;
+
 }
 
-#infos_aside ul {
-    list-style:none;
+.bloc_droit2 {
+    box-shadow: 0 4px 5px #17195d;
+    float: right;
+    padding: 80px 50px 50px 40px;
+    margin-top: 30px;
+    background-color: #acbf1b;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    font-family: "Open Sans", serif;
     width: 100%;
-    padding-left: 0;
-    line-height: 80px;
-    color: #3b728f;
-    font-size: 28px;
 }
-#logoFaceTh{
-    width: 50%;
+
+.form > label {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    vertical-align: center;
 }
+textarea{
+    margin:.7em;
+    width: 70%;
+    height: 80px;
+}
+.form > input
+{
+    margin:.7em;
+    font: 15px "Open Sans", serif;
+    width: 70%;
+    height: auto;
+}
+
+#envoyer > button {
+    vertical-align: center;
+    padding: 20px;
+    width: auto;
+    background-color: white;
+    font-family: "Open Sans", serif;
+    margin-left: 150px;
+}
+
+
 /*----------------------FOOTER----------------------*/
 footer {
     margin-top: 100px;
@@ -162,20 +203,3 @@ a{
     color: white;
 }
 /*----------------------FOOTER END----------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
